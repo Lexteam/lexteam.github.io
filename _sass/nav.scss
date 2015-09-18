@@ -1,0 +1,27 @@
+.nav-bar {
+  list-style: none;
+  padding: 0px 10px 10px;
+
+  background-color: #f2f2f2;
+  border-bottom: 1px;
+  border-top: 1px;
+
+  font-family: 'Blogger Sans', sans-serif;
+
+  li {
+    float: left;
+    padding: 5px;
+
+    border-right: 1px solid #ccc;
+
+    a {
+      text-decoration: none;
+    }
+  }
+  .brand {
+    float: right;
+    font-size: x-large;
+
+    border-right: 0px;
+  }
+}
