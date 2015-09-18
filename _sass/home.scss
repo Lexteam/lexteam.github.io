@@ -1,5 +1,10 @@
 .home-display {
+  display: block;
   text-align: center;
   font-family: 'Blogger Sans', sans-serif;
   font-weight: bold;
+
+  h1 {
+    margin: 0px;
+  }
 }
