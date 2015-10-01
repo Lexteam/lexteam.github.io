@@ -26,8 +26,12 @@
       color: white;
     }
     
+    .enabled {
+      background-color: #33cc33;
+    }
+    
     &:hover {
-      background-color: gray;
+      background-color: #33cc33;
     }
   }
   .brand {
