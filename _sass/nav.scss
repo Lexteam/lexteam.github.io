@@ -25,6 +25,10 @@
       text-decoration: none;
       color: white;
     }
+    
+    &:hover {
+      background-color: gray;
+    }
   }
   .brand {
     float: right;
