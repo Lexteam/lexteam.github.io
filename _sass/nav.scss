@@ -4,12 +4,16 @@
   float: left;
 
   list-style: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 
   background-color: black;
 
   font-family: 'Blogger Sans', sans-serif;
+
+  .enabled {
+    background-color: #33cc33;
+  }
 
   li {
     float: left;
@@ -26,10 +30,6 @@
     }
 
     &:hover {
-      background-color: #33cc33;
-    }
-
-    .enabled {
       background-color: #33cc33;
     }
   }
