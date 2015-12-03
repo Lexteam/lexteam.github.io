@@ -4,13 +4,15 @@
         {% include default-head.html %}
     </head>
     <body>
+        {% include default-libs.html %}
+        
         {% include default-nav.html %}
         
         {{ content }}
     
         {% include default-footer.html %}
         
-        {% include default-foot.html %}
+        
         
         <script type="text/javascript">
             jQuery( document ).ready(function( $ ) {

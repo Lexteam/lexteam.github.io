@@ -8,3 +8,24 @@
 
     <li class="brand">LEXTEAM</li>
 </ul>
+
+<script>
+    $(document).ready(function() {
+  
+  $(window).scroll(function () {
+      //if you hard code, then use console
+      //.log to determine when you want the 
+      //nav bar to stick.  
+      console.log($(window).scrollTop())
+    if ($(window).scrollTop() > 50) {
+      $('.nav-bar').addClass('nav-bar-fixed');
+      $('.nav-bar').add
+      $('.nav-bar').removeClass('nav-bar');
+    }
+    if ($(window).scrollTop() < 51) {
+      $('.nav-bar-fixed').addClass('nav-bar');
+      $('.nav-bar-fixed').removeClass('nav-bar-fixed');
+    }
+  });
+});
+</script>
