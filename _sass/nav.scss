@@ -6,13 +6,14 @@
   list-style: none;
   margin: 0;
   padding: 0;
-
+  
   background-color: black;
 
   font-family: 'Blogger Sans', sans-serif;
 
   .enabled {
     background-color: #33cc33;
+    border-bottom: 0.4em solid #33cc33;
   }
 
   li {
@@ -24,22 +25,19 @@
     font-weight: bold;
 
     border-right: 0.05em solid #ccc;
+    border-bottom: 0.4em solid black;
 
     a {
       color: white;
+      text-decoration: none;
     }
-
-    &:hover {
-      text-decoration: none !important;
-      border-bottom-width: 0.2em;
+  }
+  
+  li:hover {
       border-bottom-color: #33cc33;
-      
-    }
   }
   .brand {
     float: right;
-
-    border-right: 0px;
 
     &:hover {
       background-color: black;

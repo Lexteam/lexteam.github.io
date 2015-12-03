@@ -1,8 +1,23 @@
 .home-display {
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
   text-align: center;
   font-weight: bold;
+}
+
+.home-content {
+  padding: 3em 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  word-wrap: break-word;
+  p{
+    font-size: 1.2em;
+  }
+}
+
+.content-well {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
