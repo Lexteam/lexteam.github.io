@@ -6,13 +6,14 @@
     <body>
         {% include default-libs.html %}
         
-        {% include default-nav.html %}
+        <main>
+            {% include default-nav.html %}
         
-        {{ content }}
+            {{ content }}
     
-        {% include default-footer.html %}
-        
-        
+            {% include default-footer.html %}
+        </main>
+
         
         <script type="text/javascript">
             jQuery( document ).ready(function( $ ) {
