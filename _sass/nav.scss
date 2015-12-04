@@ -12,12 +12,11 @@
   font-family: 'Blogger Sans', sans-serif;
 
   .enabled {
-    @extend .nav-btn;
     background-color: #33cc33;
-    border-bottom-color: #3C3 !important;
+    border-bottom-color: #33cc33 !important;
   }
 
-  .nav-btn {
+  li {
     float: left;
     padding: 0.25em 0.8em calc(0.25em - 0.4em) 0.8em;
     
@@ -27,17 +26,17 @@
 
     border-right: 0.05em solid #ccc;
     border-bottom: 0.4em solid black;
-    &:hover {
-        border-bottom-color: #33cc33;
-    }
+
     a {
       color: white;
       text-decoration: none;
     }
+
+    &:hover {
+      border-bottom-color: #33cc33;
+    }
   }
-  
-  
-  
+
   .brand {
     float: right;
     padding: 0.25em 0.8em calc(0.25em - 0.4em) 0.8em;
@@ -45,10 +44,12 @@
     font-size: x-large;
     color: white;
     font-weight: bold;
+
+    border-right: 0;
     border-bottom: 0.4em solid black;
     
     &:hover {
-      cursor: default;
+      border-bottom-color: black;
     }
   }
 }

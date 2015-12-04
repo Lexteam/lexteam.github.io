@@ -1,10 +1,10 @@
 <ul class="nav-bar">
     {% assign url = page.url|remove:'index.html' %}
 
-    <li {% if url == '/' %}class="enabled"{% endif %} class="nav-btn"><a href="/">HOME</a></li>
-    <li {% if url == '/blog' %}class="enabled"{% endif %} class="nav-btn"><a href="/blog">BLOG</a></li>
-    <li {% if url == '/software' %}class="enabled"{% endif %} class="nav-btn"><a href="/software">SOFTWARE</a></li>
-    <li {% if url == '/games' %}class="enabled"{% endif %} class="nav-btn"><a href="/games">GAMES</a></li>
+    <li {% if url == '/' %}class="enabled"{% endif %}><a href="/">HOME</a></li>
+    <li {% if url == '/blog' %}class="enabled"{% endif %}><a href="/blog">BLOG</a></li>
+    <li {% if url == '/software' %}class="enabled"{% endif %}><a href="/software">SOFTWARE</a></li>
+    <li {% if url == '/games' %}class="enabled"{% endif %}><a href="/games">GAMES</a></li>
 
     <li class="brand">LEXTEAM</li>
 </ul>
