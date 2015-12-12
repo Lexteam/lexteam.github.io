@@ -12,15 +12,15 @@
 <script>
     $(document).ready(function() {
   
-  $(window).scroll(function () {
-    if ($(window).scrollTop() > 50) {
-      $('.nav-bar').addClass('nav-bar-fixed');
-      $('.nav-bar').removeClass('nav-bar');
-    }
-    if ($(window).scrollTop() < 51) {
-      $('.nav-bar-fixed').addClass('nav-bar');
-      $('.nav-bar-fixed').removeClass('nav-bar-fixed');
-    }
-  });
-});
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 50) {
+          $('.nav-bar').addClass('nav-bar-fixed');
+          $('.nav-bar').removeClass('nav-bar');
+        }
+        if ($(window).scrollTop() < 51) {
+          $('.nav-bar-fixed').addClass('nav-bar');
+          $('.nav-bar-fixed').removeClass('nav-bar-fixed');
+        }
+      });
+    });
 </script>

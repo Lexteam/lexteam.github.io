@@ -6,14 +6,15 @@
     <body>
         {% include default-libs.html %}
         
-        <main>
+        <div id="wrapper">
             {% include default-nav.html %}
-        
-            {{ content }}
-    
             
-        </main>
-        {% include default-footer.html %}
+            <main>
+                {{ content }}
+            </main>
+            
+            {% include default-footer.html %}
+        </div>
         
         <script type="text/javascript">
             jQuery( document ).ready(function( $ ) {

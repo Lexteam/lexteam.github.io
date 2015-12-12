@@ -1,10 +1,22 @@
-body {
-  margin: 0;
-  padding: 0;
-  border: 0;
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
 
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 3em;
+  min-height: 100%;
+  
   background: #efefef;
   font-family: 'Blogger Sans', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, li {
@@ -20,6 +32,6 @@ a {
   }
 }
 
-main{
-  height: calc(150% - 3em);
+main {
+  padding-bottom: 1em;
 }
