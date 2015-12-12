@@ -17,7 +17,18 @@
 }
 
 .content-well {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 80%;
+}
+
+#home-slider {
+  width: 100%;
+  height: 100%;
+  max-width: 1000px !important;
+  max-height: 400px !important;
+  
+  padding-bottom: 3em;
+  
+  *{
+    max-height: 400px !important;
+  }
 }
