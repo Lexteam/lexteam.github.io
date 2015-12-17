@@ -1,0 +1,12 @@
+/* Team */
+
+    jamierocks - developer
+        Website: https://www.jamierocks.uk/
+        Twitter: @LexteamJamie
+        GitHub: https://github.com/jamierocks/
+
+    charlesstewart - developer
+        GitHub: https://github.com/charlesstewart/
+
+    ethanriley - developer
+        GitHub: https://github.com/ethanriley/
