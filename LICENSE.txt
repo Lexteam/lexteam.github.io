@@ -1,6 +1,8 @@
 The MIT License (MIT)
 
 Copyright (c) 2015, Jamie Mansfield <https://github.com/jamierocks>
+Copyright (c) 2015, Tom Drever <https://github.com/CharlesStewart>
+Copyright (c) 2015, Ethan Riley <https://github.com/EthanRiley>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
