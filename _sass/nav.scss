@@ -60,8 +60,8 @@
   li{
     font-size: x-large;
     padding: 0.4em 0.8em 0.4em calc(0.8em - 0.2em);
-    background: #efefef;
-    border-left: 0.4em solid #efefef;
+    //background: #efefef;
+    border-left: 0.4em solid rgba(1, 1, 1, 0);
     
     a {
       color: black;
