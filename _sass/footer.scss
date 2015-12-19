@@ -20,11 +20,15 @@
     }
     a {
         color: #000;
+        &:hover{
+            text-decoration: underline;
+        }
     }
   }
 
   .brand {
+    font-size: x-large;
     float: right;
-    padding-right: 0.2em;
+    padding: 0.25em 0.8em calc(0.25em - 0.4em) 0.8em;
   }
 }
