@@ -7,10 +7,13 @@
   width: 100%;
   height: 100%;
   max-width: 100% !important;
-  
-  padding-bottom: 1em;
   overflow: hidden; 
   *{
-    max-height: 40em !important;
+    @media (min-width: 1200px){
+        max-height: 40em !important;
+    }
+    @media (max-width: 1200px){
+        max-height: 20rem !important;
+    }
   }
 }
