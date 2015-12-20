@@ -22,10 +22,45 @@
 
 .page-content {
   display: inline-block;
-  width: 100%;
+      @media (min-width: 1500px){
+        max-height: 40em !important;
+    }
+    @media (max-width: 1500px){
+        max-height: 25rem !important;
+    }
+    
   text-align: center;
   word-wrap: break-word;
   p {
     font-size: 1.2em;
   }
 }
+
+.page-snippet{
+    display: block;
+    width: 45%;
+    height: 12%;
+    padding: 0.75em;
+    border-radius: 0.4em;
+    border: 0.15em solid #7a7a7a;
+    background-color: #f5f5f5;
+}
+
+.page-snippet-center{
+   @extend .page-snippet;
+   margin: auto;
+}
+    
+.page-snippet-left{
+    @extend .page-snippet;
+    float:left;
+    margin: 2em;
+}
+
+.page-snippet-right{
+    @extend .page-snippet;
+    float:right;
+    margin: 2em;
+}
+
+
