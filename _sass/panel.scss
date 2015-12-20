@@ -12,6 +12,11 @@
   // text presets
   text-align: left;
 
+  * {
+    // margin
+    margin: 0;
+  }
+
   .panel-heading {
     // padding
     padding: 0.4em;

@@ -15,13 +15,13 @@ permalink: /blog/
 		</div>
 		<div class="blog-subheading">
 			<span>
-				Posted on {{ post.date }}. Authored by {{ post.author }}.
+				Posted on {{ post.date | date: "%-d %B %Y" }}. Authored by {{ post.author }}.
 			</span>
 		</div>
 
-		{{ post.excerpt }}
-
-		<h4><a href="{{ post.url }}">Continue reading</a></h4>
+		<div class="blog-body">
+			{{ post.content }}
+		</div>
 	</div>
 	{% endfor %}
 </div>
