@@ -1,2 +1,8 @@
+# General stuff
 name: Lexteam
 url: http://lexteam.jamierocks.uk
+
+# Extra plugins
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
