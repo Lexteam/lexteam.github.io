@@ -1,0 +1,19 @@
+.blog-post {
+  @extend .panel;
+
+  .blog-heading {
+    @extend .panel-heading;
+  }
+
+  .blog-subheading {
+    // padding
+    padding: 0.4em;
+
+    // background
+    background-color: #c0c0c0;
+  }
+
+  .blog-body {
+    @extend .panel-body;
+  }
+}
