@@ -21,14 +21,7 @@
 }
 
 .page-content {
-  display: inline-block;
-      @media (min-width: 1500px){
-        max-height: 40em !important;
-    }
-    @media (max-width: 1500px){
-        max-height: 25rem !important;
-    }
-    
+  display: inline-block;    
   text-align: center;
   word-wrap: break-word;
   p {

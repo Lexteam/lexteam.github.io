@@ -9,11 +9,14 @@
   max-width: 100% !important;
   overflow: hidden; 
   *{
-    @media (min-width: 1400px){
+    @media (min-width: 1500px){
         max-height: 40em !important;
     }
-    @media (max-width: 1400px){
+    @media (max-width: 1500px){
         max-height: 25rem !important;
+    }
+    @media (max-width: 1269px){
+        max-width: 15rem;
     }
   }
 }
