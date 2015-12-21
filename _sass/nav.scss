@@ -12,8 +12,8 @@
   font-family: 'Blogger Sans', sans-serif;
 
   .enabled {
-    background-color: #33cc33;
-    border-bottom-color: #33cc33 !important;
+    background-color: $colour_lex_green;
+    border-bottom-color: $colour_lex_green !important;
   }
 
   li {
@@ -40,7 +40,7 @@
     }
 
     &:hover:not(.brand) {
-      border-bottom-color: #33cc33;
+      border-bottom-color: $colour_lex_green;
     }
   }
 
