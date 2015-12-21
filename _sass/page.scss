@@ -21,22 +21,22 @@
 }
 
 .page-content {
-  display: inline-block;    
+  display: inline-block;
   text-align: center;
   word-wrap: break-word;
-  width:100%;
-  *{
-    @media (min-width: 1500px){
-        margin: 0 10em;
+  width: 100%;
+  * {
+    @media (min-width: 1500px) {
+      margin: 0 10em;
     }
-    @media (max-width: 1500px){
-        margin: 0 10em;
+    @media (max-width: 1500px) {
+      margin: 0 10em;
     }
-    @media (min-width: 1269px){
-        max-height:  22.5rem !important;
+    @media (min-width: 1269px) {
+      max-height: 22.5rem !important;
     }
-    @media (min-width: 1166px){
-        max-height: 17.5rem !important;
+    @media (min-width: 1166px) {
+      max-height: 17.5rem !important;
     }
   }
   p {
@@ -44,31 +44,26 @@
   }
 }
 
-.page-snippet{
-    display: block;
-    width: 45%;
-    height: 12%;
-    padding: 0.75em;
-    border-radius: 0.4em;
-    border: 0.15em solid #7a7a7a;
-    background-color: #f5f5f5;
-}
+.page-snippet {
+  display: block;
+  width: 45%;
+  height: 12%;
+  padding: 0.75em;
+  border-radius: 0.4em;
+  border: 0.15em solid #7a7a7a;
+  background-color: #f5f5f5;
 
-.page-snippet-center{
-   @extend .page-snippet;
-   margin: auto;
-}
-    
-.page-snippet-left{
-    @extend .page-snippet;
-    float:left;
+  .center {
+    margin: auto;
+  }
+
+  .left {
+    float: left;
     margin: 2em;
-}
+  }
 
-.page-snippet-right{
-    @extend .page-snippet;
-    float:right;
+  .right {
+    float: right;
     margin: 2em;
+  }
 }
-
-
