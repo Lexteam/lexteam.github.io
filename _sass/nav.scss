@@ -26,13 +26,17 @@
 
     border-bottom: 0.4em solid black;
 
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
     &:not(.brand) {
       border-right: 0.05em solid #ccc;
     }
 
-    a {
-      color: white;
-      text-decoration: none;
+    &:last-child {
+      border-right: none;
     }
 
     &:hover:not(.brand) {

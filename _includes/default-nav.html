@@ -1,12 +1,12 @@
 <ul class="nav-bar">
+    <li class="brand">LEXTEAM</li>
+    
     {% assign url = page.url|remove:'index.html' %}
 
     <li{% if url == '/' %} class="enabled"{% endif %}><a href="/">HOME</a></li>
     <li{% if url == '/blog/' %} class="enabled"{% endif %}><a href="/blog">BLOG</a></li>
     <li{% if url == '/software/' %} class="enabled"{% endif %}><a href="/software">SOFTWARE</a></li>
     <li{% if url == '/gaming/' %} class="enabled"{% endif %}><a href="/gaming">GAMING</a></li>
-
-    <li class="brand">LEXTEAM</li>
 </ul>
 
 <script>
