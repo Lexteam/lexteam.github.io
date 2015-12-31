@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        {% include default-head.html %}
-    </head>
-    <body>
-        {% include default-libs.html %}
-        
-        <div id="wrapper">
-            {% include default-nav.html %}
-            
-            <main>
-                {{ content }}
-            </main>
-            
-            {% include default-footer.html %}
-        </div>
-        
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $('#home-slider').sliderPro();
-            });
-        </script>
-    </body>
+<head>
+    {% include default-head.html %}
+</head>
+<body>
+
+<div id="wrapper">
+    {% include default-nav.html %}
+
+    <main>
+        {{ content }}
+    </main>
+
+    {% include default-footer.html %}
+</div>
+
+{% include default-libs.html %}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#home-slider').sliderPro();
+    });
+</script>
+
+</body>
 </html>

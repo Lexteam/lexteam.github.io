@@ -1,14 +1,8 @@
 ---
 ---
-@import "variables";
-
-@import "base";
-@import "page";
-@import "panel";
 @import "fonts";
-
-@import "nav";
-@import "footer";
-
 @import "home";
-@import "blog";
+
+body {
+  font-family: 'Blogger Sans', sans-serif;
+}
