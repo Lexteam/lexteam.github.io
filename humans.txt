@@ -10,3 +10,9 @@
 
     ethanriley - developer
         GitHub: https://github.com/ethanriley/
+
+/* Thanks */
+
+    kenyan - graphics designer, our new logo
+        Twitter: @kenyan_bro
+        GitHub: https://github.com/jayanratna
