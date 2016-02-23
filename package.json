@@ -1,0 +1,22 @@
+{
+  "name": "lex-violet",
+  "version": "1.0.0-indev",
+  "description": "lex-site - The Lexteam website.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lexteam/lexteam.github.io.git"
+  },
+  "author": "Lexteam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lexteam/lexteam.github.io/issues"
+  },
+  "homepage": "https://github.com/Lexteam/lexteam.github.io",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1"
+  }
+}

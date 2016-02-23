@@ -1,0 +1,32 @@
+.panel {
+  display: inline-block;
+
+  // width, height
+  width: 80%;
+  height: 80%;
+
+  // border
+  border: 0.2em black solid;
+  border-radius: 0.4em;
+
+  // text presets
+  text-align: left;
+
+  * {
+    // margin
+    margin: 0;
+  }
+
+  .panel-heading {
+    // padding
+    padding: 0.4em;
+
+    // background
+    background-color: $colour_panel_heading;
+  }
+
+  .panel-body {
+    // padding
+    padding: 0.3em;
+  }
+}

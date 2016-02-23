@@ -1,0 +1,34 @@
+.footer {
+  background: white;
+
+  height: 3em;
+
+  display: flex;
+  align-items: center;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  ul {
+    list-style: none;
+    flex: 1;
+    li {
+      padding: 0 0.5em;
+      display: inline;
+    }
+    a {
+      color: #000;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .brand {
+    font-size: x-large;
+    float: right;
+    padding: 0.25em 0.8em;
+  }
+}
