@@ -5,7 +5,7 @@ var cssmin = require('gulp-cssmin');
 var rename = require('gulp-rename');
 
 gulp.task('watch', function () {
-    gulp.watch('scss/*.scss', ['build']);
+    gulp.watch('violet/source/*.scss', ['build']);
 });
 
 gulp.task('scss', function () {

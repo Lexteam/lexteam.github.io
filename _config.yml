@@ -2,6 +2,10 @@
 name: Lexteam
 url: https://www.lexteam.xyz
 
+exclude:
+  - violet/source
+  - node_modules
+
 # Extra plugins
 gems:
   - jekyll-sitemap
