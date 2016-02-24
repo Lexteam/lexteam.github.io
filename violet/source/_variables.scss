@@ -3,6 +3,7 @@
 
 $colour_background: #efefef;
 $colour_lex_green: #7BD678;
+$colour_lex_blue: #3D68CC;
 
 // Colours for panels / blog
 
@@ -12,5 +13,5 @@ $colour_blog_subheading: #c0c0c0;
 // Colours for nav-bar
 
 $colour_navbar_foreground: white;
-$colour_navbar_background: #3D68CC;
-$colour_navbar_highlight: #7BD678;
+$colour_navbar_background: $colour_lex_blue;
+$colour_navbar_highlight: $colour_lex_green;
