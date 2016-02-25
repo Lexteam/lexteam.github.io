@@ -148,7 +148,7 @@ main {
     display: none; }
 
 .footer {
-  background: #f25f5c;
+  background: #3D68CC;
   height: 3em;
   display: flex;
   align-items: center;
@@ -169,7 +169,8 @@ main {
   .footer .brand {
     font-size: x-large;
     float: right;
-    padding: 0.25em 0.8em; }
+    padding: 0.25em 0.8em;
+    height: 70px; }
 
 .blog-post .blog-subheading {
   padding: 0.4em;
