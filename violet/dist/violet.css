@@ -15,7 +15,7 @@ body {
   box-sizing: inherit; }
 
 h1, h2, h3, h4, h5, h6, p, ul, li {
-  margin: 1em; }
+  margin: 0; }
 
 a {
   color: #0096dd;
@@ -48,7 +48,7 @@ main {
   text-align: center;
   word-wrap: break-word;
   width: 100%;
-  margin-top: 10em;
+  margin: 2em;
   /** {
     @media (min-width: 1500px) {
       margin: 0 10em;
