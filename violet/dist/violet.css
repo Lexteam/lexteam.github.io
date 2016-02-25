@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding-bottom: 3em;
   min-height: 100%;
-  background: #ffe066; }
+  background: #efefef; }
 
 *,
 *:before,
@@ -86,8 +86,7 @@ main {
   display: inline-block;
   width: 80%;
   height: 80%;
-  border: 0.2em black solid;
-  border-radius: 0.4em;
+  margin: 1em;
   text-align: left; }
   .panel *, .blog-post * {
     margin: 0; }
@@ -104,17 +103,17 @@ main {
   list-style: none;
   margin: 0;
   padding: 0;
-  background-color: #3D68CC; }
+  background-color: #0288D1; }
   .nav-bar .enabled {
-    background-color: #7BD678;
-    border-bottom-color: #7BD678 !important; }
+    background-color: #40C4FF;
+    border-bottom-color: #40C4FF !important; }
   .nav-bar li {
     float: left;
     padding: 0.25em 0.8em calc(0.25em - 0.4em) 0.8em;
     font-size: x-large;
     color: white;
     font-weight: bold;
-    border-bottom: 0.4em solid #3D68CC; }
+    border-bottom: 0.4em solid #0288D1; }
     .nav-bar li a {
       color: white;
       text-decoration: none; }
@@ -123,7 +122,7 @@ main {
     .nav-bar li:last-child {
       border-right: none; }
     .nav-bar li:hover:not(.brand) {
-      border-bottom-color: #7BD678; }
+      border-bottom-color: #40C4FF; }
   .nav-bar .brand {
     float: right; }
 
@@ -148,7 +147,7 @@ main {
     display: none; }
 
 .footer {
-  background: #3D68CC;
+  background: #0288D1;
   height: 3em;
   display: flex;
   align-items: center;
@@ -175,3 +174,6 @@ main {
 .blog-post .blog-subheading {
   padding: 0.4em;
   background-color: #c0c0c0; }
+
+.blog-post p {
+  margin: 0.45em; }

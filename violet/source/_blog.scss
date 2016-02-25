@@ -16,4 +16,7 @@
   .blog-body {
     @extend .panel-body;
   }
+  p{
+    margin: 0.45em;
+  }
 }
