@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding-bottom: 3em;
   min-height: 100%;
-  background: #efefef; }
+  background: #ffe066; }
 
 *,
 *:before,
@@ -148,7 +148,7 @@ main {
     display: none; }
 
 .footer {
-  background: white;
+  background: #f25f5c;
   height: 3em;
   display: flex;
   align-items: center;
