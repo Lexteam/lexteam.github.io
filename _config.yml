@@ -5,6 +5,7 @@ url: https://www.lexteam.xyz
 exclude:
   - violet/source
   - node_modules
+  - gulpfile.js
 
 # Extra plugins
 gems:

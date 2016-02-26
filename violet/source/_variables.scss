@@ -1,10 +1,9 @@
 // Colours
 //////////
 
-//$colour_background: #efefef;
 $colour_background: #efefef;
-$colour_lex_green: #40C4FF;
-$colour_lex_blue: #0288D1;
+$colour_lex_green: #7BD678;
+$colour_lex_blue: #3D68CC;
 
 // Colours for panels / blog
 
@@ -14,10 +13,10 @@ $colour_blog_subheading: #c0c0c0;
 // Colours for nav-bar
 
 $colour_navbar_foreground: white;
-$colour_navbar_background: $colour_lex_blue;
-$colour_navbar_highlight: $colour_lex_green;
+$colour_navbar_background: #0288D1;
+$colour_navbar_highlight: #40C4FF;
 
 // Colours for footer
 
 //$colour_footer_background: #f25f5c;
-$colour_footer_background: $colour_lex_blue;
+$colour_footer_background: $colour_navbar_background;

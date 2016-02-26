@@ -14,12 +14,15 @@
   ul {
     list-style: none;
     flex: 1;
+
     li {
       padding: 0 0.5em;
       display: inline;
     }
+
     a {
-      color: #000;
+      color: black;
+
       &:hover {
         text-decoration: underline;
       }
@@ -27,9 +30,10 @@
   }
 
   .brand {
-    font-size: x-large; // for text brands
     float: right;
+    font-size: x-large;
     padding: 0.25em 0.8em;
-    height: 70px; // for image brands
+
+    // TODO: image based brands
   }
 }

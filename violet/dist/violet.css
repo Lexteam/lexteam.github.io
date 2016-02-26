@@ -163,14 +163,13 @@ main {
       padding: 0 0.5em;
       display: inline; }
     .footer ul a {
-      color: #000; }
+      color: black; }
       .footer ul a:hover {
         text-decoration: underline; }
   .footer .brand {
-    font-size: x-large;
     float: right;
-    padding: 0.25em 0.8em;
-    height: 70px; }
+    font-size: x-large;
+    padding: 0.25em 0.8em; }
 
 .blog-post .blog-subheading {
   padding: 0.4em;
