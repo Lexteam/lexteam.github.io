@@ -10,7 +10,6 @@ body {
   min-height: 100%;
 
   background: $colour_background;
-  // font-family: 'Blogger Sans', sans-serif;
 }
 
 *,
@@ -34,4 +33,16 @@ a {
 
 main {
   padding-bottom: 1em;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
 }
