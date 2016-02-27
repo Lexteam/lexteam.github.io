@@ -1,6 +1,6 @@
 {
   "name": "lex-violet",
-  "version": "1.1.0",
+  "version": "1.1.1-indev",
   "description": "Violet - The Lexteam website CSS framework.",
   "main": "violet.js",
   "bin": {
