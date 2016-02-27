@@ -7,6 +7,7 @@ exclude:
   - violet/node_modules
   - violet/package.json
   - violet/violet.js
+  - violet/README.md
   - node_modules
   - gulpfile.js
   - package.json
