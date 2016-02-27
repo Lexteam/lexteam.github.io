@@ -9,7 +9,9 @@ body {
   padding-bottom: 3em;
   min-height: 100%;
 
-  background: $colour_background;
+  background-color: $colour_background;
+
+  font-family: 'Open Sans', sans-serif;
 }
 
 *,

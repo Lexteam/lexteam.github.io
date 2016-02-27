@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 html {
   height: 100%;
   box-sizing: border-box; }
@@ -8,7 +9,8 @@ body {
   margin: 0;
   padding-bottom: 3em;
   min-height: 100%;
-  background: #efefef; }
+  background-color: #efefef;
+  font-family: 'Open Sans', sans-serif; }
 
 *,
 *:before,
