@@ -4,8 +4,12 @@ url: https://www.lexteam.xyz
 
 exclude:
   - violet/source
+  - violet/node_modules
+  - violet/package.json
+  - violet/violet.js
   - node_modules
   - gulpfile.js
+  - package.json
 
 # Extra plugins
 gems:
