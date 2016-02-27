@@ -9,8 +9,6 @@
 
   background-color: $colour_navbar_background;
 
-  //font-family: 'Blogger Sans', sans-serif;
-
   .enabled {
     background-color: $colour_navbar_highlight;
     border-bottom-color: $colour_navbar_highlight !important;
@@ -57,10 +55,10 @@
   text-decoration: none;
   display: inline-block;
   z-index: 5;
+
   li {
     font-size: x-large;
     padding: 0.4em 0.8em 0.4em calc(0.8em - 0.2em);
-    //background: #efefef;
     border-left: 0.4em solid rgba(1, 1, 1, 0);
 
     a {
