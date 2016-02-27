@@ -17,6 +17,7 @@
   },
   "homepage": "https://www.lexteam.xyz/projects/violet/",
   "dependencies": {
+    "ncp": "^2.0.0",
     "yargs": "^4.2.0"
   }
 }
