@@ -1,7 +1,12 @@
 ---
 ---
+@import "bourbon/bourbon";
+@import "neat/neat";
+
 @import "fonts";
+
 @import "home";
+@import "about";
 
 .nav-bar {
   font-family: 'Blogger Sans', sans-serif;
