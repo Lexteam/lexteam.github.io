@@ -106,9 +106,12 @@ main {
     .nav-bar li:hover:not(.brand) {
       border-bottom-color: #40C4FF; }
   .nav-bar .brand {
-    float: right;
     font-size: x-large;
     color: #7BD678; }
+  .nav-bar .left {
+    float: left; }
+  .nav-bar .right {
+    float: right; }
 
 .nav-bar-fixed {
   top: 0;
