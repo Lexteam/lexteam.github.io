@@ -149,3 +149,13 @@ main {
 
 .blog-post .blog-body h1, .blog-post .blog-body h2, .blog-post .blog-body h3, .blog-post .blog-body h4, .blog-post .blog-body h5, .blog-post .blog-body h6, .blog-post .blog-body p, .blog-post .blog-body ul, .blog-post .blog-body li, .blog-post .blog-body img {
   margin: 0.45em; }
+
+.colour-white {
+  color: white; }
+  .colour-white a:visited {
+    color: white; }
+
+.colour-black {
+  color: black; }
+  .colour-black a:visited {
+    color: black; }
