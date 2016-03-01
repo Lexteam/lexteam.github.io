@@ -39,8 +39,13 @@ main {
   text-align: right; }
 
 .page-container {
-  margin-left: 13%;
-  margin-right: 13%; }
+  margin-left: 12%;
+  margin-right: 12%; }
+  .page-container .content {
+    margin-bottom: 1em; }
+    .page-container .content h1, .page-container .content h2, .page-container .content h3, .page-container .content h4, .page-container .content h5, .page-container .content h6, .page-container .content p, .page-container .content ul, .page-container .content li, .page-container .content img {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em; }
   .page-container .title {
     font-family: 'Raleway', sans-serif;
     font-size: xx-large;
