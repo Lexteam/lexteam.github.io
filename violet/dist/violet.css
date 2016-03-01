@@ -113,26 +113,6 @@ main {
   .nav-bar .right {
     float: right; }
 
-.nav-bar-fixed {
-  top: 0;
-  padding: 0;
-  position: fixed;
-  list-style-type: none;
-  text-decoration: none;
-  display: inline-block;
-  z-index: 5; }
-  .nav-bar-fixed li {
-    font-size: x-large;
-    padding: 0.4em 0.8em 0.4em calc(0.8em - 0.2em);
-    border-left: 0.4em solid rgba(1, 1, 1, 0); }
-    .nav-bar-fixed li a {
-      color: black;
-      text-decoration: none; }
-    .nav-bar-fixed li:hover {
-      border-left-color: black; }
-  .nav-bar-fixed .brand {
-    display: none; }
-
 .footer {
   background-color: #0288D1;
   display: flex;
