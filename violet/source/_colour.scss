@@ -1,4 +1,4 @@
-.colour-white {
+.colour-white, .color-white {
   color: white;
 
   a:visited {
@@ -6,10 +6,34 @@
   }
 }
 
-.colour-black {
+.colour-black, .color-black {
   color: black;
 
   a:visited {
     color: black;
+  }
+}
+
+.colour-red, .color-red {
+  color: red;
+
+  a:visited {
+    color: red;
+  }
+}
+
+.colour-yellow, .color-yellow {
+  color: yellow;
+
+  a:visited {
+    color: yellow;
+  }
+}
+
+.colour-green, .color-green {
+  color: green;
+
+  a:visited {
+    color: green;
   }
 }
