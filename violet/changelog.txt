@@ -2,3 +2,4 @@
 - Removed some none-Violet related classes (this is potentially breaking, and if you are using violet, our apologies)
 - More variables to customise Violet with (we are working towards more customisation than just colours)
 - New page related classes (.content)
+- Style blockquotes
