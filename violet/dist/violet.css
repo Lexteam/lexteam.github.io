@@ -34,6 +34,8 @@ main {
 
 .center {
   text-align: center; }
+  .center * {
+    text-align: center; }
 
 .right {
   text-align: right; }
@@ -70,17 +72,20 @@ main {
   width: 100%;
   margin-bottom: 2em; }
 
-.panel, .blog-post {
+.panel, .blog-post, .portal .portal-item {
   display: inline-block;
   width: 100%;
   height: 100%;
   margin-top: 1em;
   margin-bottom: 0.5em;
   text-align: left; }
-  .panel .panel-heading, .blog-post .panel-heading, .blog-post .blog-heading {
+  .panel .panel-heading, .blog-post .panel-heading, .portal .portal-item .panel-heading, .blog-post .blog-heading, .portal .portal-item .item-heading {
     padding: 0.4em;
     background-color: #cacaca; }
-  .panel .panel-body, .blog-post .panel-body, .blog-post .blog-body {
+  .panel .panel-subheading, .blog-post .panel-subheading, .portal .portal-item .panel-subheading, .blog-post .blog-subheading, .portal .portal-item .item-subheading {
+    padding: 0.2em;
+    background-color: #c0c0c0; }
+  .panel .panel-body, .blog-post .panel-body, .portal .portal-item .panel-body, .blog-post .blog-body, .portal .portal-item .item-image {
     padding: 0.3em; }
 
 .nav-bar {
@@ -105,7 +110,10 @@ main {
       color: white;
       text-decoration: none; }
     .nav-bar li:not(.brand) {
-      border-right: 0.05em solid #ccc; }
+      border-left: 0.01em solid #ccc;
+      border-right: 0.01em solid #ccc; }
+    .nav-bar li:nth-child(2) {
+      border-left: none; }
     .nav-bar li:last-child {
       border-right: none; }
     .nav-bar li:hover:not(.brand) {
@@ -148,8 +156,7 @@ main {
   text-align: center; }
 
 .blog-post .blog-subheading {
-  padding: 0.4em;
-  background-color: #c0c0c0; }
+  font-size: 0.75rem; }
 
 .blog-post .blog-body h1, .blog-post .blog-body h2, .blog-post .blog-body h3, .blog-post .blog-body h4, .blog-post .blog-body h5, .blog-post .blog-body h6, .blog-post .blog-body p, .blog-post .blog-body ul, .blog-post .blog-body li, .blog-post .blog-body img {
   margin: 0.45em; }
@@ -178,3 +185,37 @@ main {
   color: green; }
   .colour-green a:visited, .color-green a:visited {
     color: green; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.portal {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .portal::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .portal .portal-item {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    text-align: center; }
+    .portal .portal-item:last-child {
+      margin-right: 0; }
+    .portal .portal-item:nth-child(3n) {
+      margin-right: 0; }
+    .portal .portal-item:nth-child(3n+1) {
+      clear: left; }
+    .portal .portal-item .item-heading {
+      display: block;
+      font-size: 1.5rem;
+      font-weight: bold; }
+    .portal .portal-item .item-subheading {
+      display: block;
+      font-size: 1rem; }

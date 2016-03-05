@@ -1,0 +1,27 @@
+.portal {
+  @include outer-container;
+  
+  .portal-item {
+    @extend .panel;
+    @include span-columns(4);
+    @include omega(3n);
+    text-align: center;
+    
+    .item-heading {
+      @extend .panel-heading;
+      display: block;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    
+    .item-subheading {
+      @extend .panel-subheading;
+      display: block;
+      font-size: 1rem;
+    }
+    
+    .item-image {
+      @extend .panel-body;
+    }
+  }
+}

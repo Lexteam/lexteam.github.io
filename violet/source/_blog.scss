@@ -4,17 +4,14 @@
   .blog-heading {
     @extend .panel-heading;
     *{
-        display: inline;
-        text-align: center;
+      display: inline;
+      text-align: center;
     }
   }
 
   .blog-subheading {
-    // padding
-    padding: 0.4em;
-
-    // background
-    background-color: $colour_blog_subheading;
+    @extend .panel-subheading;
+    font-size: 0.75rem;
   }
 
   .blog-body {

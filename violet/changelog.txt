@@ -1,1 +1,6 @@
 - More colour classes, and allow American spelling of them
+- Small tweaks to blog: centering of contents of headings
+and smaller subheadings
+- Moved neat and bourbon into here
+- Added portals, grids made to contain links new areas of the
+site

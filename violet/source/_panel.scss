@@ -19,6 +19,14 @@
     // background
     background-color: $colour_panel_heading;
   }
+  
+  .panel-subheading {
+    // padding
+    padding: 0.2em;
+
+    // background
+    background-color: $colour_panel_subheading;
+  }
 
   .panel-body {
     // padding
