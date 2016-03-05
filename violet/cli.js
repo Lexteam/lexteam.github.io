@@ -10,28 +10,40 @@ require('yargs')
         alias: 'd',
         describe: 'Provide the directory to install Violet to'
     })
+    .option('type', {
+        alias: 't',
+        describe: 'Install Violet scss or js'
+    })
     .command('install', 'Install Violet', {}, function (argv) {
         var directory = 'violet';
+        var type = 'scss';
         if (argv.directory != null) {
             directory = argv.directory;
         }
+        if (argv.type != null) {
+            type = argv.type;
+        }
 
-        install(directory);
+        install(directory, type);
     })
     .command('update', 'Update Violet', {}, function (argv) {
         var directory = 'violet';
+        var type = 'scss';
         if (argv.directory != null) {
             directory = argv.directory;
         }
+        if (argv.type != null) {
+            type = argv.type;
+        }
 
         deleteFolderRecursive(directory);
-        install(directory);
+        install(directory, type);
     })
     .help('help')
     .argv;
 
-function install(directory) {
-    ncp(path.resolve(__dirname, './src/scss'), directory, function (err) {
+function install(directory, type) {
+    ncp(path.resolve(__dirname, './src/' + type), directory, function (err) {
         if (err) {
             return console.error(err);
         }

@@ -3,10 +3,10 @@ name: Lexteam
 url: https://www.lexteam.xyz
 
 exclude:
-  - violet/source
+  - violet/src
   - violet/node_modules
   - violet/package.json
-  - violet/violet.js
+  - violet/cli.js
   - violet/README.md
   - violet/changelog.txt
   - node_modules

@@ -4,7 +4,7 @@
   "description": "Violet - The Lexteam website CSS framework.",
   "main": "violet.js",
   "bin": {
-    "violet": "./violet.js"
+    "violet": "./cli.js"
   },
   "repository": {
     "type": "git",
