@@ -31,7 +31,7 @@ require('yargs')
     .argv;
 
 function install(directory) {
-    ncp(path.resolve(__dirname, './source'), directory, function (err) {
+    ncp(path.resolve(__dirname, './src/scss'), directory, function (err) {
         if (err) {
             return console.error(err);
         }

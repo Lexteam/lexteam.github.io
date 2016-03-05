@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+@import "bourbon/bourbon";
+@import "neat/neat";
+
 @import "variables";
 @import "base";
 
@@ -12,8 +15,5 @@
 
 @import "blog";
 @import "colour";
-
-@import "bourbon/bourbon";
-@import "neat/neat";
 
 @import "portal";

@@ -5,11 +5,11 @@ var rename = require('gulp-rename');
 var shell = require('gulp-shell');
 
 gulp.task('watch', ['build'], function () {
-    gulp.watch('violet/source/**/*.scss', ['build']);
+    gulp.watch('violet/src/scss/**/*.scss', ['build']);
 });
 
 gulp.task('scss', function () {
-    return gulp.src('./violet/source/violet.scss')
+    return gulp.src('./violet/src/scss/violet.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./violet/dist'));
 });

@@ -1,6 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+html {
   height: 100%;
   box-sizing: border-box; }
 
@@ -185,12 +191,6 @@ main {
   color: green; }
   .colour-green a:visited, .color-green a:visited {
     color: green; }
-
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
 
 .portal {
   max-width: 1200px;
