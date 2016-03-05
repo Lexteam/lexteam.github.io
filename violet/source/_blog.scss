@@ -3,6 +3,10 @@
 
   .blog-heading {
     @extend .panel-heading;
+    *{
+        display: inline;
+        text-align: center;
+    }
   }
 
   .blog-subheading {

@@ -10,7 +10,8 @@ section: blog
 	{% for post in site.posts %}
 	<div class="blog-post">
 		<div class="blog-heading">
-			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+            <h1>{{ post.title }}</h1>
+            <a href="{{ post.url }}"><i style="float: right;" class="fa fa-external-link fa-2x"></i></a>
 		</div>
 		<div class="blog-subheading">
 			<span>

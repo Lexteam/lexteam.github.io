@@ -143,6 +143,10 @@ main {
     font-size: x-large;
     color: #7BD678; }
 
+.blog-post .blog-heading * {
+  display: inline;
+  text-align: center; }
+
 .blog-post .blog-subheading {
   padding: 0.4em;
   background-color: #c0c0c0; }
