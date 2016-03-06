@@ -3,3 +3,4 @@
 - Moved neat and bourbon into here
 - Added portals, grids made to contain links new areas of the site
 - Add Violet specific js
+- Add British spelling of centre

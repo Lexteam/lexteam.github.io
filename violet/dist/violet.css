@@ -38,9 +38,9 @@ main {
 .left {
   text-align: left; }
 
-.center {
+.centre, .center {
   text-align: center; }
-  .center * {
+  .centre *, .center * {
     text-align: center; }
 
 .right {
