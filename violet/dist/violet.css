@@ -118,15 +118,15 @@ main {
     .nav-bar li:not(.brand) {
       border-left: 0.01em solid #ccc;
       border-right: 0.01em solid #ccc; }
+    .nav-bar li:nth-child(2) {
+      border-left: none; }
     .nav-bar li:last-child {
       border-right: none; }
     .nav-bar li:hover:not(.brand) {
       border-bottom-color: #40C4FF; }
   .nav-bar .brand {
     font-size: x-large;
-    color: #7BD678;
-    border-left: none;
-    border-right: none; }
+    color: #7BD678; }
   .nav-bar .left {
     float: left; }
   .nav-bar .right {
