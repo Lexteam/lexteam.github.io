@@ -87,10 +87,10 @@ main {
   text-align: left; }
   .panel .panel-heading, .blog-post .panel-heading, .portal .portal-item .panel-heading, .blog-post .blog-heading, .portal .portal-item .item-heading {
     padding: 0.4em;
-    background-color: #cacaca; }
+    background-color: rgba(202, 202, 202, 0.3); }
   .panel .panel-subheading, .blog-post .panel-subheading, .portal .portal-item .panel-subheading, .blog-post .blog-subheading, .portal .portal-item .item-subheading {
     padding: 0.2em;
-    background-color: #c0c0c0; }
+    background-color: rgba(192, 192, 192, 0.6); }
   .panel .panel-body, .blog-post .panel-body, .portal .portal-item .panel-body, .blog-post .blog-body, .portal .portal-item .item-image {
     padding: 0.3em; }
 
