@@ -33,11 +33,6 @@
       border-left: 0.01em solid #ccc;
       border-right: 0.01em solid #ccc;
     }
-    
-    // second child - so as to ignore brand
-    &:nth-child(2) {
-      border-left: none;
-    }
 
     &:last-child {
       border-right: none;
@@ -52,6 +47,9 @@
     // image based brands
     font-size: x-large;
     color: $colour_navbar_brand;
+
+    border-left: none;
+    border-right: none;
   }
 
   .left {

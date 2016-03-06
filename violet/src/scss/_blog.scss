@@ -3,7 +3,8 @@
 
   .blog-heading {
     @extend .panel-heading;
-    *{
+
+    * {
       display: inline;
       text-align: center;
     }
@@ -11,7 +12,8 @@
 
   .blog-subheading {
     @extend .panel-subheading;
-    font-size: 0.75rem;
+
+    font-size: $size_blog_subheading;
   }
 
   .blog-body {
