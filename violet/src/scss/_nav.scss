@@ -35,7 +35,7 @@
     }
 
     // so the first nav item doesn't have a left border
-    &:nth-child(2) {
+    &:first-child {
       border-left: none;
     }
 
