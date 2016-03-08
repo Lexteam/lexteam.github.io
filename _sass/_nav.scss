@@ -6,6 +6,11 @@
   text-decoration: none;
   display: inline-block;
   z-index: 5;
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
 
   li {
     font-size: x-large;
