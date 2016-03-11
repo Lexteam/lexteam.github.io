@@ -176,25 +176,85 @@ main {
   .colour-white a:visited, .color-white a:visited {
     color: white; }
 
-.colour-black, .color-black {
-  color: black; }
-  .colour-black a:visited, .color-black a:visited {
-    color: black; }
+.colour-navy, .color-navy {
+  color: #001f3f; }
+  .colour-navy a:visited, .color-navy a:visited {
+    color: #001f3f; }
 
-.colour-red, .color-red {
-  color: red; }
-  .colour-red a:visited, .color-red a:visited {
-    color: red; }
+.colour-blue, .color-blue {
+  color: #0074D9; }
+  .colour-blue a:visited, .color-blue a:visited {
+    color: #0074D9; }
 
-.colour-yellow, .color-yellow {
-  color: yellow; }
-  .colour-yellow a:visited, .color-yellow a:visited {
-    color: yellow; }
+.colour-aqua, .color-aqua {
+  color: #7FDBFF; }
+  .colour-aqua a:visited, .color-aqua a:visited {
+    color: #7FDBFF; }
+
+.colour-teal, .color-teal {
+  color: #39CCCC; }
+  .colour-teal a:visited, .color-teal a:visited {
+    color: #39CCCC; }
+
+.colour-olive, .color-olive {
+  color: #3D9970; }
+  .colour-olive a:visited, .color-olive a:visited {
+    color: #3D9970; }
 
 .colour-green, .color-green {
-  color: green; }
+  color: #2ECC40; }
   .colour-green a:visited, .color-green a:visited {
-    color: green; }
+    color: #2ECC40; }
+
+.colour-lime, .color-lime {
+  color: #01FF70; }
+  .colour-lime a:visited, .color-lime a:visited {
+    color: #01FF70; }
+
+.colour-yellow, .color-yellow {
+  color: #FFDC00; }
+  .colour-yellow a:visited, .color-yellow a:visited {
+    color: #FFDC00; }
+
+.colour-orange, .color-orange {
+  color: #FF851B; }
+  .colour-orange a:visited, .color-orange a:visited {
+    color: #FF851B; }
+
+.colour-red, .color-red {
+  color: #FF4136; }
+  .colour-red a:visited, .color-red a:visited {
+    color: #FF4136; }
+
+.colour-maroon, .color-maroon {
+  color: #85144b; }
+  .colour-maroon a:visited, .color-maroon a:visited {
+    color: #85144b; }
+
+.colour-fushsia, .color-fushsia {
+  color: #F012BE; }
+  .colour-fushsia a:visited, .color-fushsia a:visited {
+    color: #F012BE; }
+
+.colour-purple, .color-purple {
+  color: #B10DC9; }
+  .colour-purple a:visited, .color-purple a:visited {
+    color: #B10DC9; }
+
+.colour-black, .color-black {
+  color: #111111; }
+  .colour-black a:visited, .color-black a:visited {
+    color: #111111; }
+
+.colour-grey, .color-gray {
+  color: #AAAAAA; }
+  .colour-grey a:visited, .color-gray a:visited {
+    color: #AAAAAA; }
+
+.colour-silver, .color-silver {
+  color: #DDDDDD; }
+  .colour-silver a:visited, .color-silver a:visited {
+    color: #DDDDDD; }
 
 .portal {
   max-width: 1200px;
