@@ -1,13 +1,5 @@
 // colours from http://clrs.cc/
 
-.colour-white, .color-white {
-  color: white;
-
-  a:visited {
-    color: white;
-  }
-}
-
 .colour-navy, .color-navy {
   color: #001f3f;
 
@@ -133,5 +125,13 @@
 
   a:visited {
     color: #DDDDDD;
+  }
+}
+
+.colour-white, .color-white {
+  color: #FFFFFF;
+
+  a:visited {
+    color: #FFFFFF;
   }
 }

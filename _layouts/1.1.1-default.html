@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include default-head.html %}
+</head>
+<body>
+
+<ul class="nav-bar">
+    <li class="brand right">LEXTEAM</li>
+
+    <li{% if page.section == 'home' %} class="enabled"{% endif %}><a href="/">HOME</a></li>
+    <li{% if page.section == 'blog' %} class="enabled"{% endif %}><a href="/blog">BLOG</a></li>
+    <li{% if page.section == 'software' %} class="enabled"{% endif %}><a href="/software">SOFTWARE</a></li>
+    <li{% if page.section == 'gaming' %} class="enabled"{% endif %}><a href="/gaming">GAMING</a></li>
+</ul>
+
+<script>
+    $(document).ready(function() {
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 25) {
+                $('.nav-bar').addClass('nav-bar-fixed');
+                $('.nav-bar').removeClass('nav-bar');
+            }
+            if ($(window).scrollTop() < 26) {
+                $('.nav-bar-fixed').addClass('nav-bar');
+                $('.nav-bar-fixed').removeClass('nav-bar-fixed');
+            }
+        });
+    });
+</script>
+
+<main>
+    {{ content }}
+</main>
+
+{% include default-footer.html %}
+
+{% include default-libs.html %}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#home-slider').sliderPro();
+    });
+</script>
+
+</body>
+</html>

@@ -171,11 +171,6 @@ main {
 .blog-post .blog-body h1, .blog-post .blog-body h2, .blog-post .blog-body h3, .blog-post .blog-body h4, .blog-post .blog-body h5, .blog-post .blog-body h6, .blog-post .blog-body p, .blog-post .blog-body ul, .blog-post .blog-body li, .blog-post .blog-body img {
   margin: 0.45em; }
 
-.colour-white, .color-white {
-  color: white; }
-  .colour-white a:visited, .color-white a:visited {
-    color: white; }
-
 .colour-navy, .color-navy {
   color: #001f3f; }
   .colour-navy a:visited, .color-navy a:visited {
@@ -255,6 +250,11 @@ main {
   color: #DDDDDD; }
   .colour-silver a:visited, .color-silver a:visited {
     color: #DDDDDD; }
+
+.colour-white, .color-white {
+  color: #FFFFFF; }
+  .colour-white a:visited, .color-white a:visited {
+    color: #FFFFFF; }
 
 .portal {
   max-width: 1200px;
