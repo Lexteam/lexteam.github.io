@@ -1,4 +1,4 @@
-<div class="nav-bar">
+<div class="nav bar">
     <p class="brand right">LEXTEAM</p>
 
     <ul>
@@ -11,14 +11,13 @@
 
 <script>
     $(document).ready(function() {
+      var nav = $('.nav')
       $(window).scroll(function () {
-        if ($(window).scrollTop() > 25) {
-          $('.nav-bar').addClass('nav-bar-fixed');
-          $('.nav-bar').removeClass('nav-bar');
+        if ($(window).scrollTop() > 30) {
+          nav.addClass('side').removeClass('bar');
         }
-        if ($(window).scrollTop() < 26) {
-          $('.nav-bar-fixed').addClass('nav-bar');
-          $('.nav-bar-fixed').removeClass('nav-bar-fixed');
+        if ($(window).scrollTop() < 31) {
+          nav.addClass('bar').removeClass('side');
         }
       });
     });

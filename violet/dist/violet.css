@@ -94,21 +94,21 @@ main {
   .panel .panel-body, .blog-post .panel-body, .portal .portal-item .panel-body, .blog-post .blog-body, .portal .portal-item .item-image {
     padding: 0.3em; }
 
-.nav-bar {
+.bar {
   display: block;
   width: 100%;
   float: left;
   margin: 0;
   padding: 0;
   background-color: #0288D1; }
-  .nav-bar .enabled {
+  .bar .enabled {
     background-color: #40C4FF;
     border-bottom-color: #40C4FF !important; }
-  .nav-bar * {
+  .bar * {
     float: left;
     margin: 0;
     padding: 0; }
-  .nav-bar li {
+  .bar li {
     padding: 0.25em 0.8em calc(0.25em - 0.4em) 0.8em;
     list-style: none;
     font-size: x-large;
@@ -117,23 +117,23 @@ main {
     border-bottom: 0.4em solid #0288D1;
     border-left: 0.01em solid #ccc;
     border-right: 0.01em solid #ccc; }
-    .nav-bar li a {
+    .bar li a {
       color: white;
       text-decoration: none; }
-    .nav-bar li:first-child {
+    .bar li:first-child {
       border-left: none; }
-    .nav-bar li:last-child {
+    .bar li:last-child {
       border-right: none; }
-    .nav-bar li:hover {
+    .bar li:hover {
       border-bottom-color: #40C4FF; }
-  .nav-bar .brand {
+  .bar .brand {
     padding: 0.25em 0.8em calc(0.25em - 0.4em) 0.8em;
     font-size: x-large;
     color: #7BD678;
     font-weight: bold; }
-  .nav-bar .left {
+  .bar .left {
     float: left; }
-  .nav-bar .right {
+  .bar .right {
     float: right; }
 
 .footer {
