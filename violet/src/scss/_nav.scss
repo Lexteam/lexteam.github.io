@@ -8,8 +8,8 @@
 
   //background-color: $colour_navbar_background;
 
-  .enabled {
-    border-bottom-color: $colour_navbar_highlight !important;
+  .enabled a {
+    text-decoration: underline;
   }
 
   * {
@@ -18,9 +18,14 @@
     margin: 0;
     padding: 0;
   }
+  
+  ul {
+    float: right;
+    padding-top: 0.7em;
+  }
 
   li {
-    padding: 0.25em 0.8em calc(0.25em - 0.4em) 0.8em;
+    padding: 0.25em 0 calc(0.25em - 0.4em) 0.4em;
 
     list-style: none;
 
@@ -37,13 +42,14 @@
 
     //border-left: 0.01em solid #ccc;
     //border-right: 0.01em solid #ccc;
-
-    &:first-child {
-      border-left: none;
+    
+    &:not(:last-child):before {
+      padding-left: 0.4em;
+      content: " • "
     }
-
+    
     &:last-child {
-      border-right: none;
+      padding-right: 1.2em;
     }
 
     &:hover {

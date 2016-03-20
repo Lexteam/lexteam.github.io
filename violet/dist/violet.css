@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 html {
@@ -100,14 +101,17 @@ main {
   float: left;
   margin: 0;
   padding: 0; }
-  .bar .enabled {
-    border-bottom-color: #40C4FF !important; }
+  .bar .enabled a {
+    text-decoration: underline; }
   .bar * {
     float: left;
     margin: 0;
     padding: 0; }
+  .bar ul {
+    float: right;
+    padding-top: 0.7em; }
   .bar li {
-    padding: 0.25em 0.8em calc(0.25em - 0.4em) 0.8em;
+    padding: 0.25em 0 calc(0.25em - 0.4em) 0.4em;
     list-style: none;
     font-size: x-large;
     color: #111111;
@@ -115,10 +119,11 @@ main {
     .bar li a {
       color: #111111;
       text-decoration: none; }
-    .bar li:first-child {
-      border-left: none; }
+    .bar li:not(:last-child):before {
+      padding-left: 0.4em;
+      content: " • "; }
     .bar li:last-child {
-      border-right: none; }
+      padding-right: 1.2em; }
     .bar li:hover {
       border-bottom-color: #40C4FF; }
   .bar .brand {
