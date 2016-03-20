@@ -21,7 +21,7 @@
   
   ul {
     float: right;
-    padding-top: 0.7em;
+    padding-top: 0.9em;
   }
 
   li {
@@ -45,7 +45,7 @@
     
     &:not(:last-child):before {
       padding-left: 0.4em;
-      content: " • "
+      content: " \2022 "
     }
     
     &:last-child {

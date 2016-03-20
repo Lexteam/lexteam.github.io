@@ -1,11 +1,13 @@
 <div class="nav bar">
-    <img class="brand left" src="/assets/img/logo_blue.png" width="225" height="75"></img>
+    <a href="/">
+        <img class="brand left" src="/assets/img/logo_blue.png" height="75" />
+    </a>
 
     <ul>
-        <li{% if page.section == 'home' %} class="enabled"{% endif %}><a href="/">HOME</a></li>
-        <li{% if page.section == 'blog' %} class="enabled"{% endif %}><a href="/blog">BLOG</a></li>
-        <li{% if page.section == 'software' %} class="enabled"{% endif %}><a href="/software">SOFTWARE</a></li>
-        <li{% if page.section == 'gaming' %} class="enabled"{% endif %}><a href="/gaming">GAMING</a></li>
+        <li{% if page.section == 'home' %} class="enabled"{% endif %}><a href="/">Home</a></li>
+        <li{% if page.section == 'blog' %} class="enabled"{% endif %}><a href="/blog">Blog</a></li>
+        <li{% if page.section == 'software' %} class="enabled"{% endif %}><a href="/software">Software</a></li>
+        <li{% if page.section == 'gaming' %} class="enabled"{% endif %}><a href="/gaming">Gaming</a></li>
     </ul>
 </div>
 
