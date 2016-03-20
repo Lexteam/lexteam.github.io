@@ -5,6 +5,26 @@ $colour_background: #efefef;
 $colour_lex_green: #7BD678;
 $colour_lex_blue: #3D68CC;
 
+// Base colours
+
+$colour_navy: #001f3f;
+$colour_blue: #0074D9;
+$colour_aqua: #7FDBFF;
+$colour_teal: #39CCCC;
+$colour_olive: #3D9970;
+$colour_green: #2ECC40;
+$colour_lime: #01FF70;
+$colour_yellow: #FFDC00;
+$colour_orange: #FF851B;
+$colour_red: #FF4136;
+$colour_maroon: #85144b;
+$colour_fushsia: #F012BE;
+$colour_purple: #B10DC9;
+$colour_black: #111111;
+$colour_grey: #AAAAAA;
+$colour_silver: #DDDDDD;
+$colour_white: #FFFFFF;
+
 // Colours for panels / extensions
 
 $colour_panel_heading: rgba(202, 202, 202, 0.3);
@@ -12,7 +32,7 @@ $colour_panel_subheading: rgba(192, 192, 192, 0.6);
 
 // Colours for nav-bar
 
-$colour_navbar_foreground: black;
+$colour_navbar_foreground: $colour_black;
 $colour_navbar_background: #0288D1;
 $colour_navbar_highlight: #40C4FF;
 $colour_navbar_brand: $colour_lex_green;

@@ -1,137 +1,137 @@
 // colours from http://clrs.cc/
 
 .colour-navy, .color-navy {
-  color: #001f3f;
+  color: $colour_navy;
 
   a:visited {
-    color: #001f3f;
+    color: $colour_navy;
   }
 }
 
 .colour-blue, .color-blue {
-  color: #0074D9;
+  color: $colour_blue;
 
   a:visited {
-    color: #0074D9;
+    color: $colour_blue;
   }
 }
 
 .colour-aqua, .color-aqua {
-  color: #7FDBFF;
+  color: $colour_aqua;
 
   a:visited {
-    color: #7FDBFF;
+    color: $colour_aqua;
   }
 }
 
 .colour-teal, .color-teal {
-  color: #39CCCC;
+  color: $colour_teal;
 
   a:visited {
-    color: #39CCCC;
+    color: $colour_teal;
   }
 }
 
 .colour-olive, .color-olive {
-  color: #3D9970;
+  color: $colour_olive;
 
   a:visited {
-    color: #3D9970;
+    color: $colour_olive;
   }
 }
 
 .colour-green, .color-green {
-  color: #2ECC40;
+  color: $colour_green;
 
   a:visited {
-    color: #2ECC40;
+    color: $colour_green;
   }
 }
 
 .colour-lime, .color-lime {
-  color: #01FF70;
+  color: $colour_lime;
 
   a:visited {
-    color: #01FF70;
+    color: $colour_lime;
   }
 }
 
 .colour-yellow, .color-yellow {
-  color: #FFDC00;
+  color: $colour_yellow;
 
   a:visited {
-    color: #FFDC00;
+    color: $colour_yellow;
   }
 }
 
 .colour-orange, .color-orange {
-  color: #FF851B;
+  color: $colour_orange;
 
   a:visited {
-    color: #FF851B;
+    color: $colour_orange;
   }
 }
 
 .colour-red, .color-red {
-  color: #FF4136;
+  color: $colour_red;
 
   a:visited {
-    color: #FF4136;
+    color: $colour_red;
   }
 }
 
 .colour-maroon, .color-maroon {
-  color: #85144b;
+  color: $colour_maroon;
 
   a:visited {
-    color: #85144b;
+    color: $colour_maroon;
   }
 }
 
 .colour-fushsia, .color-fushsia {
-  color: #F012BE;
+  color: $colour_fushsia;
 
   a:visited {
-    color: #F012BE;
+    color: $colour_fushsia;
   }
 }
 
 .colour-purple, .color-purple {
-  color: #B10DC9;
+  color: $colour_purple;
 
   a:visited {
-    color: #B10DC9;
+    color: $colour_purple;
   }
 }
 
 .colour-black, .color-black {
-  color: #111111;
+  color: $colour_black;
 
   a:visited {
-    color: #111111;
+    color: $colour_black;
   }
 }
 
 .colour-grey, .color-gray {
-  color: #AAAAAA;
+  color: $colour_grey;
 
   a:visited {
-    color: #AAAAAA;
+    color: $colour_grey;
   }
 }
 
 .colour-silver, .color-silver {
-  color: #DDDDDD;
+  color: $colour_silver;
 
   a:visited {
-    color: #DDDDDD;
+    color: $colour_silver;
   }
 }
 
 .colour-white, .color-white {
-  color: #FFFFFF;
+  color: $colour_white;
 
   a:visited {
-    color: #FFFFFF;
+    color: $colour_white;
   }
 }

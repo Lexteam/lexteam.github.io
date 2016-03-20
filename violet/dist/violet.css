@@ -110,10 +110,10 @@ main {
     padding: 0.25em 0.8em calc(0.25em - 0.4em) 0.8em;
     list-style: none;
     font-size: x-large;
-    color: black;
+    color: #111111;
     font-weight: bold; }
     .bar li a {
-      color: black;
+      color: #111111;
       text-decoration: none; }
     .bar li:first-child {
       border-left: none; }
