@@ -6,10 +6,9 @@
   margin: 0;
   padding: 0;
 
-  background-color: $colour_navbar_background;
+  //background-color: $colour_navbar_background;
 
   .enabled {
-    background-color: $colour_navbar_highlight;
     border-bottom-color: $colour_navbar_highlight !important;
   }
 
@@ -29,15 +28,15 @@
     color: $colour_navbar_foreground;
     font-weight: bold;
 
-    border-bottom: 0.4em solid $colour_navbar_background;
+    //border-bottom: 0.4em solid $colour_navbar_background;
 
     a {
       color: $colour_navbar_foreground;
       text-decoration: none;
     }
 
-    border-left: 0.01em solid #ccc;
-    border-right: 0.01em solid #ccc;
+    //border-left: 0.01em solid #ccc;
+    //border-right: 0.01em solid #ccc;
 
     &:first-child {
       border-left: none;

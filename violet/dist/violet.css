@@ -99,10 +99,8 @@ main {
   width: 100%;
   float: left;
   margin: 0;
-  padding: 0;
-  background-color: #0288D1; }
+  padding: 0; }
   .bar .enabled {
-    background-color: #40C4FF;
     border-bottom-color: #40C4FF !important; }
   .bar * {
     float: left;
@@ -112,13 +110,10 @@ main {
     padding: 0.25em 0.8em calc(0.25em - 0.4em) 0.8em;
     list-style: none;
     font-size: x-large;
-    color: white;
-    font-weight: bold;
-    border-bottom: 0.4em solid #0288D1;
-    border-left: 0.01em solid #ccc;
-    border-right: 0.01em solid #ccc; }
+    color: black;
+    font-weight: bold; }
     .bar li a {
-      color: white;
+      color: black;
       text-decoration: none; }
     .bar li:first-child {
       border-left: none; }
