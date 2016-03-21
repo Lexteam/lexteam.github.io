@@ -13,22 +13,33 @@ section: software
 
     <h2 class="subtitle">Contents</h2>
     <ul>
+        <li><a href="#notes-about-1.2.0">Notes About 1.2.0</a></li>
         <li><a href="#getting-started">Getting Started</a></li>
         <li><a href="#installation">Installation</a></li>
         <li><a href="#components">Components</a></li>
     </ul>
 
+    <h1 id="notes-about-1.2.0" class="title">Notes About 1.2.0</h1>
+
+    <p>
+        With this release we had a large emphasis on design, as can be seen by the complete overhaul of the nav bar.
+        Some of the changes we have made have made it hard to modify the design without changing Violet itself, we
+        aim to resolve these issues with the coming releases.
+    </p>
+
     <h1 id="getting-started" class="title">Getting Started</h1>
 
     <p>Violet is a CSS framework designed for use by the Lexteam website.</p>
-    <p>With the coming releases Violet aims to become a more customisable framework that can be used by more than
-        just the Lexteam website.</p>
+    <p>
+        With the coming releases Violet aims to become a more customisable framework that can be used by more than
+        just the Lexteam website.
+    </p>
 
     <h1 id="installation" class="title">Installation</h1>
 
     <h2 class="subtitle">Distribution Install</h2>
 
-    <p>To do a distribution install, you just need to add the Violet css file to your project</p>
+    <p>To do a distribution install, you just need to add the Violet css file to your project:</p>
     <code>https://www.lexteam.xyz/violet/dist/violet.css</code><br />
     <code>https://www.lexteam.xyz/violet/dist/violet.min.css</code>
 
@@ -45,7 +56,42 @@ section: software
 
     <h1 id="components" class="title">Components</h1>
 
-    <h2 class="subtitle">Nav bar</h2>
+    <h2 class="subtitle">Nav Bar</h2>
+
+    <p>
+        Using Violet, the nav bar is intended to be at the top of the document.
+        <b>NOTE: currently that is the only place we have tested it, however it should work in other places.</b>
+    </p>
+    <pre>
+        &lt;div class="nav bar"&gt;
+            &lt;a href="/"&gt;
+                &lt;img class="brand left" src="/assets/img/logo_blue.png" height="75" /&gt;
+            &lt;/a&gt;
+
+            &lt;ul&gt;
+                &lt;li>&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/blog"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="enabled"&gt;&lt;a href="/software"&gt;Software&lt;/a&gt;&lt;/li&gt;
+                &lt;li>&lt;a href="/gaming"&gt;Gaming&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    </pre>
 
     <h2 class="subtitle">Footer</h2>
+
+    <p>
+        Similarly to how the nav bar is intended to be at the top of the document, the footer is intended to be at
+        the end of the document.
+        <b>NOTE: by default the nav bar sticks to the bottom of the page.</b>
+    </p>
+    <pre>
+        &lt;footer class="footer"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="/about"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/contact"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://status.lexteam.xyz/"&gt;Status&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;h3 class="brand"&gt;LEXTEAM&lt;/h3&gt;
+        &lt;/footer&gt;
+    </pre>
 </div>
