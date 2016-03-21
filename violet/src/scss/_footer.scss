@@ -20,7 +20,7 @@
     }
 
     a {
-      color: black;
+      color: $colour_black;
 
       &:hover {
         text-decoration: underline;
@@ -32,7 +32,7 @@
     float: right;
     padding: 0.25em 0.8em;
 
-    // image based brands
+    // text based brands
     font-size: x-large;
     color: $colour_footer_brand;
 

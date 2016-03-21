@@ -7,7 +7,7 @@
 
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
 
-    <link rel="stylesheet" href="/violet/release/1.1.1/violet.min.css" />
+    <link rel="stylesheet" href="/violet/release/1.2.0/violet.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slider-pro/1.2.3/css/slider-pro.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="/assets/css/application.css" />
@@ -18,25 +18,28 @@
 </head>
 <body>
 
-<ul class="nav-bar">
-    <li class="brand right">LEXTEAM</li>
+<div class="nav bar">
+    <a href="/">
+        <img class="brand left" src="/assets/img/logo_blue.png" height="75" />
+    </a>
 
-    <li{% if page.section == 'home' %} class="enabled"{% endif %}><a href="/">HOME</a></li>
-    <li{% if page.section == 'blog' %} class="enabled"{% endif %}><a href="/blog">BLOG</a></li>
-    <li{% if page.section == 'software' %} class="enabled"{% endif %}><a href="/software">SOFTWARE</a></li>
-    <li{% if page.section == 'gaming' %} class="enabled"{% endif %}><a href="/gaming">GAMING</a></li>
-</ul>
+    <ul>
+        <li{% if page.section == 'home' %} class="enabled"{% endif %}><a href="/">Home</a></li>
+        <li{% if page.section == 'blog' %} class="enabled"{% endif %}><a href="/blog">Blog</a></li>
+        <li{% if page.section == 'software' %} class="enabled"{% endif %}><a href="/software">Software</a></li>
+        <li{% if page.section == 'gaming' %} class="enabled"{% endif %}><a href="/gaming">Gaming</a></li>
+    </ul>
+</div>
 
 <script>
     $(document).ready(function() {
+        var nav = $('.nav')
         $(window).scroll(function () {
-            if ($(window).scrollTop() > 25) {
-                $('.nav-bar').addClass('nav-bar-fixed');
-                $('.nav-bar').removeClass('nav-bar');
+            if ($(window).scrollTop() > 30) {
+                nav.addClass('side').removeClass('bar');
             }
-            if ($(window).scrollTop() < 26) {
-                $('.nav-bar-fixed').addClass('nav-bar');
-                $('.nav-bar-fixed').removeClass('nav-bar-fixed');
+            if ($(window).scrollTop() < 31) {
+                nav.addClass('bar').removeClass('side');
             }
         });
     });

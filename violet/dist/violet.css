@@ -108,7 +108,7 @@ main {
     padding: 0; }
   .bar ul {
     float: right;
-    padding-top: 0.9em; }
+    padding-top: 0.95em; }
   .bar li {
     padding: 0.25em 0 calc(0.25em - 0.4em) 0.4em;
     list-style: none;
@@ -122,7 +122,7 @@ main {
       padding-left: 0.4em;
       content: " \2022 "; }
     .bar li:last-child {
-      padding-right: 1.2em; }
+      padding-right: 1.5em; }
     .bar li:hover {
       border-bottom-color: #40C4FF; }
   .bar .brand {
@@ -151,7 +151,7 @@ main {
       padding: 0 0.5em;
       display: inline; }
     .footer ul a {
-      color: black; }
+      color: #111111; }
       .footer ul a:hover {
         text-decoration: underline; }
   .footer .brand {
