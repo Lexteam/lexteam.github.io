@@ -158,6 +158,7 @@ main {
     float: right;
     padding: 0.25em 0.8em;
     font-size: x-large;
+    text-transform: uppercase;
     color: #7BD678; }
 
 .blog-post .blog-heading * {
