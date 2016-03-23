@@ -31,5 +31,10 @@
   .panel-body {
     // padding
     padding: 0.3em;
+
+    // text, lists, images, etc
+    h1, h2, h3, h4, h5, h6, p, ul, li, img {
+      margin: 0.45em;
+    }
   }
 }

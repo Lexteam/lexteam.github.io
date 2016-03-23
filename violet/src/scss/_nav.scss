@@ -1,22 +1,50 @@
+.nav {
+  padding: 0;
+
+  * {
+    padding: 0;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    font-size: x-large;
+    font-weight: bold;
+
+    color: $colour_navbar_foreground;
+
+    a {
+      color: $colour_navbar_foreground;
+      text-decoration: none;
+    }
+  }
+
+  .enabled a {
+    text-decoration: underline;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+}
+
 .bar {
   display: block;
   width: 100%;
   float: left;
 
   margin: 0;
-  padding: 0;
-
-  //background-color: $colour_navbar_background;
-
-  .enabled a {
-    text-decoration: underline;
-  }
 
   * {
     float: left;
 
     margin: 0;
-    padding: 0;
   }
   
   ul {
@@ -26,22 +54,6 @@
 
   li {
     padding: 0.25em 0 calc(0.25em - 0.4em) 0.4em;
-
-    list-style: none;
-
-    font-size: x-large;
-    color: $colour_navbar_foreground;
-    font-weight: bold;
-
-    //border-bottom: 0.4em solid $colour_navbar_background;
-
-    a {
-      color: $colour_navbar_foreground;
-      text-decoration: none;
-    }
-
-    //border-left: 0.01em solid #ccc;
-    //border-right: 0.01em solid #ccc;
     
     &:not(:last-child):before {
       padding-left: 0.4em;
@@ -51,10 +63,6 @@
     &:last-child {
       padding-right: 1.5em;
     }
-
-    &:hover {
-      border-bottom-color: $colour_navbar_highlight;
-    }
   }
 
   .brand {
@@ -63,13 +71,5 @@
     font-size: x-large;
     color: $colour_navbar_brand;
     font-weight: bold;
-  }
-
-  .left {
-    float: left;
-  }
-
-  .right {
-    float: right;
   }
 }

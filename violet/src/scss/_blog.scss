@@ -18,9 +18,5 @@
 
   .blog-body {
     @extend .panel-body;
-
-    h1, h2, h3, h4, h5, h6, p, ul, li, img {
-      margin: 0.45em;
-    }
   }
 }

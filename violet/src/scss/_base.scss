@@ -20,7 +20,7 @@ body {
   box-sizing: inherit;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, li {
+h1, h2, h3, h4, h5, h6, p, ul, li, img {
   margin: 0;
 }
 
@@ -39,6 +39,10 @@ main {
 
 .left {
   text-align: left;
+
+  * {
+    text-align: left;
+  }
 }
 
 .centre, .center  {
@@ -51,4 +55,8 @@ main {
 
 .right {
   text-align: right;
+
+  * {
+    text-align: right;
+  }
 }

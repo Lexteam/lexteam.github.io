@@ -23,7 +23,7 @@ body {
 *:after {
   box-sizing: inherit; }
 
-h1, h2, h3, h4, h5, h6, p, ul, li {
+h1, h2, h3, h4, h5, h6, p, ul, li, img {
   margin: 0; }
 
 a {
@@ -37,6 +37,8 @@ main {
 
 .left {
   text-align: left; }
+  .left * {
+    text-align: left; }
 
 .centre, .center {
   text-align: center; }
@@ -45,6 +47,8 @@ main {
 
 .right {
   text-align: right; }
+  .right * {
+    text-align: right; }
 
 .page-container {
   margin-left: 12%;
@@ -93,47 +97,52 @@ main {
     background-color: rgba(192, 192, 192, 0.6); }
   .panel .panel-body, .blog-post .panel-body, .portal .portal-item .panel-body, .blog-post .blog-body, .portal .portal-item .item-image {
     padding: 0.3em; }
+    .panel .panel-body h1, .blog-post .panel-body h1, .portal .portal-item .panel-body h1, .blog-post .blog-body h1, .portal .portal-item .item-image h1, .panel .panel-body h2, .blog-post .panel-body h2, .portal .portal-item .panel-body h2, .blog-post .blog-body h2, .portal .portal-item .item-image h2, .panel .panel-body h3, .blog-post .panel-body h3, .portal .portal-item .panel-body h3, .blog-post .blog-body h3, .portal .portal-item .item-image h3, .panel .panel-body h4, .blog-post .panel-body h4, .portal .portal-item .panel-body h4, .blog-post .blog-body h4, .portal .portal-item .item-image h4, .panel .panel-body h5, .blog-post .panel-body h5, .portal .portal-item .panel-body h5, .blog-post .blog-body h5, .portal .portal-item .item-image h5, .panel .panel-body h6, .blog-post .panel-body h6, .portal .portal-item .panel-body h6, .blog-post .blog-body h6, .portal .portal-item .item-image h6, .panel .panel-body p, .blog-post .panel-body p, .portal .portal-item .panel-body p, .blog-post .blog-body p, .portal .portal-item .item-image p, .panel .panel-body ul, .blog-post .panel-body ul, .portal .portal-item .panel-body ul, .blog-post .blog-body ul, .portal .portal-item .item-image ul, .panel .panel-body li, .blog-post .panel-body li, .portal .portal-item .panel-body li, .blog-post .blog-body li, .portal .portal-item .item-image li, .panel .panel-body img, .blog-post .panel-body img, .portal .portal-item .panel-body img, .blog-post .blog-body img, .portal .portal-item .item-image img {
+      margin: 0.45em; }
+
+.nav {
+  padding: 0; }
+  .nav * {
+    padding: 0; }
+  .nav ul {
+    list-style: none; }
+  .nav li {
+    font-size: x-large;
+    font-weight: bold;
+    color: #111111; }
+    .nav li a {
+      color: #111111;
+      text-decoration: none; }
+  .nav .enabled a {
+    text-decoration: underline; }
+  .nav .left {
+    float: left; }
+  .nav .right {
+    float: right; }
 
 .bar {
   display: block;
   width: 100%;
   float: left;
-  margin: 0;
-  padding: 0; }
-  .bar .enabled a {
-    text-decoration: underline; }
+  margin: 0; }
   .bar * {
     float: left;
-    margin: 0;
-    padding: 0; }
+    margin: 0; }
   .bar ul {
     float: right;
     padding-top: 0.95em; }
   .bar li {
-    padding: 0.25em 0 calc(0.25em - 0.4em) 0.4em;
-    list-style: none;
-    font-size: x-large;
-    color: #111111;
-    font-weight: bold; }
-    .bar li a {
-      color: #111111;
-      text-decoration: none; }
+    padding: 0.25em 0 calc(0.25em - 0.4em) 0.4em; }
     .bar li:not(:last-child):before {
       padding-left: 0.4em;
       content: " \2022 "; }
     .bar li:last-child {
       padding-right: 1.5em; }
-    .bar li:hover {
-      border-bottom-color: #40C4FF; }
   .bar .brand {
     padding: 0.25em 0.8em calc(0.25em - 0.4em) 0.8em;
     font-size: x-large;
     color: #7BD678;
     font-weight: bold; }
-  .bar .left {
-    float: left; }
-  .bar .right {
-    float: right; }
 
 .footer {
   background-color: #0288D1;
@@ -167,9 +176,6 @@ main {
 
 .blog-post .blog-subheading {
   font-size: 0.75rem; }
-
-.blog-post .blog-body h1, .blog-post .blog-body h2, .blog-post .blog-body h3, .blog-post .blog-body h4, .blog-post .blog-body h5, .blog-post .blog-body h6, .blog-post .blog-body p, .blog-post .blog-body ul, .blog-post .blog-body li, .blog-post .blog-body img {
-  margin: 0.45em; }
 
 .colour-navy, .color-navy {
   color: #001f3f; }
