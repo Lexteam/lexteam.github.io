@@ -90,6 +90,7 @@ main {
   margin-bottom: 0.5em;
   text-align: left; }
   .panel .panel-heading, .blog-post .panel-heading, .portal .portal-item .panel-heading, .blog-post .blog-heading, .portal .portal-item .item-heading {
+    font-family: 'Raleway', sans-serif;
     padding: 0.4em;
     background-color: rgba(202, 202, 202, 0.3); }
   .panel .panel-subheading, .blog-post .panel-subheading, .portal .portal-item .panel-subheading, .blog-post .blog-subheading, .portal .portal-item .item-subheading {
@@ -104,6 +105,9 @@ main {
   padding: 0; }
   .nav * {
     padding: 0; }
+    @media print {
+      .nav * {
+        display: none; } }
   .nav ul {
     list-style: none; }
   .nav li {

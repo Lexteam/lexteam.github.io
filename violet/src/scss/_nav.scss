@@ -3,6 +3,11 @@
 
   * {
     padding: 0;
+
+    // printers
+    @media print {
+      display: none;
+    }
   }
 
   ul {

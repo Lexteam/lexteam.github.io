@@ -10,14 +10,14 @@
     .item-heading {
       @extend .panel-heading;
       display: block;
-      font-size: 1.5rem;
+      font-size: $size_portal_heading;
       font-weight: bold;
     }
     
     .item-subheading {
       @extend .panel-subheading;
       display: block;
-      font-size: 1rem;
+      font-size: $size_portal_subheading;
     }
     
     .item-image {
