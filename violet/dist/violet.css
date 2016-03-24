@@ -73,10 +73,10 @@ main {
     padding-top: 0.5em;
     padding-bottom: 0.5em; }
   .page-container blockquote {
-    background-color: lightgray;
+    background-color: #DDDDDD;
     font-size: 1.1em;
     padding: 1em;
-    border-left: 0.5em solid gray; }
+    border-left: 0.5em solid #AAAAAA; }
 
 .page-display {
   width: 100%;

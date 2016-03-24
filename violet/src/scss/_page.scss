@@ -34,12 +34,12 @@
   }
 
   blockquote {
-    background-color: lightgray;
+    background-color: $colour_silver;
 
     font-size: 1.1em;
 
     padding: 1em;
-    border-left: 0.5em solid gray;
+    border-left: 0.5em solid $colour_grey;
   }
 }
 
