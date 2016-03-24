@@ -4,4 +4,6 @@
 - Added portals, grids made to contain links new areas of the site
 - Add British spelling of centre
 - Completely new nav bar design
-- Much more custimisation ability.
+- Much more customisation ability.
+- Add support for printing pages (doesn't display the nav bar)
+- Proper mobile support for the nav bar

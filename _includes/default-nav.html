@@ -1,7 +1,12 @@
 <div class="nav bar">
-    <a href="/">
-        <img class="brand left" src="/assets/img/logo_blue.png" height="75" />
-    </a>
+    <div class="header">
+        <button type="button" class="toggle">
+            <i class="fa fa-bars"></i>
+        </button>
+        <a href="/">
+            <img class="brand" src="/assets/img/logo_blue.png" height="75" />
+        </a>
+    </div>
 
     <ul>
         <li{% if page.section == 'home' %} class="enabled"{% endif %}><a href="/">Home</a></li>
@@ -13,7 +18,7 @@
 
 <script>
     $(document).ready(function() {
-      var nav = $('.nav')
+      var nav = $('.nav');
       $(window).scroll(function () {
         if ($(window).scrollTop() > 30) {
           nav.addClass('side').removeClass('bar');

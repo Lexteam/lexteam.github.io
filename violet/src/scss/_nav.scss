@@ -12,6 +12,22 @@
 
   ul {
     list-style: none;
+
+    // iPhone 4/45 to iPhone 6
+    @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      display: none;
+    }
+
+    // iPhone 6+
+    @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+      display: none;
+    }
   }
 
   li {
@@ -28,6 +44,39 @@
 
   .enabled a {
     text-decoration: underline;
+  }
+
+  // header (toggle button and logo)
+  .header {
+    .toggle {
+      // the essentials
+      display: none;
+      background: none;
+      border: 0;
+
+      // position
+      margin-top: 0.75em;
+      margin-left: 0.5em;
+
+      // text
+      font-size: xx-large;
+
+      // iPhone 4/45 to iPhone 6
+      @media only screen
+      and (min-device-width: 320px)
+      and (max-device-width: 667px)
+      and (-webkit-min-device-pixel-ratio: 2) {
+        display: block;
+      }
+
+      // iPhone 6+
+      @media only screen
+      and (min-device-width: 414px)
+      and (max-device-width: 736px)
+      and (-webkit-min-device-pixel-ratio: 3) {
+        display: block;
+      }
+    }
   }
 
   .left {
