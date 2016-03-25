@@ -63,6 +63,8 @@ section: software
 
     <ul>
         <li><a href="#component-navbar">Nav Bar</a></li>
+        <li><a href="#component-container">Page Container</a></li>
+        <li><a href="#component-titles">Titles</a></li>
         <li><a href="#component-footer">Footer</a></li>
     </ul>
 
@@ -73,18 +75,51 @@ section: software
         <b>NOTE: currently that is the only place we have tested it, however it should work in other places.</b>
     </p>
     <pre>
-        &lt;div class="nav bar"&gt;
-            &lt;a href="/"&gt;
-                &lt;img class="brand left" src="/assets/img/logo_blue.png" height="75" /&gt;
-            &lt;/a&gt;
+        &lt;nav class="nav bar"&gt;
+            &lt;div class="header"&gt;
+                &lt;button type="button" class="toggle"&gt;
+                    &lt;i class="fa fa-bars"&gt;&lt;/i&gt;
+                &lt;/button&gt;
+                &lt;a href="/"&gt;
+                    &lt;img class="brand" src="/assets/img/logo_blue.png" height="75" /&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
 
             &lt;ul&gt;
-                &lt;li>&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="enabled"&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
                 &lt;li&gt;&lt;a href="/blog"&gt;Blog&lt;/a&gt;&lt;/li&gt;
-                &lt;li class="enabled"&gt;&lt;a href="/software"&gt;Software&lt;/a&gt;&lt;/li&gt;
-                &lt;li>&lt;a href="/gaming"&gt;Gaming&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/software"&gt;Software&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/gaming"&gt;Gaming&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
+        &lt;/nav&gt;
+    </pre>
+
+    <h2 id="component-container" class="subtitle">Page Container</h2>
+
+    <p>
+        We recommend that you wrap all of your pages content in the page-container class.
+        This way you will have access to a few exclusive classes, and you won't need to setup all the padding, etc
+        yourself.
+    </p>
+    <pre>
+        &lt;div class="page-container"&gt;
+            &lt;h1&gt;Hi there.&lt;/h1&gt;
         &lt;/div&gt;
+    </pre>
+
+    <h2 id="component-titles" class="subtitle">Titles</h2>
+
+    <p>
+        We have classes for titles and subtitles. You can see examples of these on this documentation.
+    </p>
+    <pre>
+        &lt;h1 class="title centre"&gt;Violet 1.2.0-indev Documentation&lt;/h1&gt;
+
+        &lt;p&gt;
+            Welcome to the Violet documentation!
+        &lt;/p&gt;
+
+        &lt;h2 class="subtitle"&gt;Contents&lt;/h2&gt;
     </pre>
 
     <h2 id="component-footer" class="subtitle">Footer</h2>
@@ -99,9 +134,8 @@ section: software
             &lt;ul&gt;
                 &lt;li&gt;&lt;a href="/about"&gt;About Us&lt;/a&gt;&lt;/li&gt;
                 &lt;li&gt;&lt;a href="/contact"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;&lt;a href="http://status.lexteam.xyz/"&gt;Status&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
-            &lt;h3 class="brand"&gt;LEXTEAM&lt;/h3&gt;
+            &lt;h3 class="brand"&gt;Lexteam&lt;/h3&gt;
         &lt;/footer&gt;
     </pre>
 </div>
