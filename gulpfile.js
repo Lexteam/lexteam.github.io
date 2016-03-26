@@ -1,11 +1,11 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var cssmin = require('gulp-cssmin');
-var rename = require('gulp-rename');
-var shell = require('gulp-shell');
+var gulp = require('gulp'),
+    sass = require('gulp-sass'),
+    cssmin = require('gulp-cssmin'),
+    rename = require('gulp-rename'),
+    shell = require('gulp-shell');
 
 gulp.task('watch', ['build'], function () {
-    gulp.watch('violet/src/scss/**/*.scss', ['build']);
+    gulp.watch('./violet/src/scss/**/*.scss', ['build']);
 });
 
 gulp.task('scss', function () {

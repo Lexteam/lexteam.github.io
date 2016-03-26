@@ -4,11 +4,11 @@ url: https://www.lexteam.xyz
 
 exclude:
   - etc
-  - scripts
   - violet/src
   - violet/node_modules
   - violet/package.json
   - violet/cli.js
+  - violet/gulpfile.js
   - violet/README.md
   - violet/changelog.txt
   - node_modules

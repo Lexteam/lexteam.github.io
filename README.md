@@ -12,6 +12,8 @@ Violet is a css and js framework developed alongside lex-site, it currently resi
 and is also under the MIT license. It is worth noting that it also contains Bourbon and Neat, which are also MIT 
 licensed.
 
+Violet is also available through the [Lexteam/Violet](https://github.com/Lexteam/Violet) repo thanks to subtrees.
+
 ## License
 
 lex-site is licensed under the MIT license and can be viewed [here](LICENSE.txt).
