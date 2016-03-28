@@ -1,9 +1,10 @@
 - More colour classes, and allow American spelling of them
 - Small tweaks to blog: heading and subheading now centred.
 - Moved neat and bourbon into here
-- Added portals, grids made to contain links new areas of the site
+- Added portals, grids made to contain links new areas of the site (with mobile support)
 - Add British spelling of centre
 - Completely new nav bar design
 - Much more customisation ability.
 - Add support for printing pages (doesn't display the nav bar)
 - Proper mobile support for the nav bar
+- Images in the blog-content are now mobile friendly

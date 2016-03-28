@@ -18,5 +18,27 @@
 
   .blog-body {
     @extend .panel-body;
+
+    // makes images somewhat mobile-friendly
+
+    // iPhone 4/45 to iPhone 6
+    @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      img {
+        width: 100%;
+      }
+    }
+
+    // iPhone 6+
+    @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+      img {
+        width: 100%;
+      }
+    }
   }
 }
