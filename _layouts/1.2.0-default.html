@@ -18,10 +18,15 @@
 </head>
 <body>
 
-<div class="nav bar">
-    <a href="/">
-        <img class="brand left" src="/assets/img/logo_blue.png" height="75" />
-    </a>
+<nav class="nav bar">
+    <div class="header">
+        <button type="button" class="toggle">
+            <i class="fa fa-bars"></i>
+        </button>
+        <a href="/">
+            <img class="brand" src="/assets/img/logo_blue.png" height="75" />
+        </a>
+    </div>
 
     <ul>
         <li{% if page.section == 'home' %} class="enabled"{% endif %}><a href="/">Home</a></li>
@@ -29,21 +34,7 @@
         <li{% if page.section == 'software' %} class="enabled"{% endif %}><a href="/software">Software</a></li>
         <li{% if page.section == 'gaming' %} class="enabled"{% endif %}><a href="/gaming">Gaming</a></li>
     </ul>
-</div>
-
-<script>
-    $(document).ready(function() {
-        var nav = $('.nav')
-        $(window).scroll(function () {
-            if ($(window).scrollTop() > 30) {
-                nav.addClass('side').removeClass('bar');
-            }
-            if ($(window).scrollTop() < 31) {
-                nav.addClass('bar').removeClass('side');
-            }
-        });
-    });
-</script>
+</nav>
 
 <main>
     {{ content }}
