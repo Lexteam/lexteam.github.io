@@ -305,6 +305,12 @@ main {
       margin-right: 0; }
     .portal .portal-item:nth-child(3n+1) {
       clear: left; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+      .portal .portal-item {
+        width: 100%; } }
+    @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+      .portal .portal-item {
+        width: 100%; } }
     .portal .portal-item .item-heading {
       display: block;
       font-size: 1.5rem;
@@ -312,3 +318,5 @@ main {
     .portal .portal-item .item-subheading {
       display: block;
       font-size: 1rem; }
+    .portal .portal-item .item-content .fa {
+      padding: 0; }
