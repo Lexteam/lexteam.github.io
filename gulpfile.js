@@ -5,7 +5,8 @@ var gulp = require('gulp'),
     shell = require('gulp-shell');
 
 gulp.task('watch', ['build'], function () {
-    gulp.watch('./violet/src/scss/**/*.scss', ['build']);
+    gulp.watch('./violet/src/scss/**/*.scss', ['build:scss']);
+    gulp.watch('./violet/src/js/**/*.js', ['build:js']);
 });
 
 gulp.task('scss', function () {
@@ -14,11 +15,20 @@ gulp.task('scss', function () {
         .pipe(gulp.dest('./violet/dist'));
 });
 
-gulp.task('build', ['scss'], function () {
+gulp.task('build:scss', ['scss'], function () {
     return gulp.src('./violet/dist/violet.css')
         .pipe(cssmin())
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('./violet/dist'));
+});
+
+gulp.task('build:js', ['scss'], function () {
+    return gulp.src('./violet/src/js/violet.js')
+        .pipe(gulp.dest('./violet/dist'));
+});
+
+gulp.task('build', ['build:js', 'build:scss'], function () {
+
 });
 
 gulp.task('serve', ['watch'], shell.task([

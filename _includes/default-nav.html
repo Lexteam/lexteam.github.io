@@ -1,6 +1,6 @@
-<nav class="nav bar">
+<nav class="nav bar" onblur="navBarClose()">
     <div class="header">
-        <button type="button" class="toggle">
+        <button type="button" class="toggle" onfocus="navBarOpen()">
             <i class="fa fa-bars"></i>
         </button>
         <a href="/">
@@ -8,7 +8,7 @@
         </a>
     </div>
 
-    <ul>
+    <ul id="nav-bar">
         <li{% if page.section == 'home' %} class="enabled"{% endif %}><a href="/">Home</a></li>
         <li{% if page.section == 'blog' %} class="enabled"{% endif %}><a href="/blog">Blog</a></li>
         <li{% if page.section == 'software' %} class="enabled"{% endif %}><a href="/software">Software</a></li>
