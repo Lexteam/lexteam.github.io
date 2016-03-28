@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: 1.2.0-default
 title: Violet 1.2.0-indev Documentation
 permalink: /software/violet/documentation/1.2.0-indev/
 section: software
@@ -47,6 +47,8 @@ section: software
     <p>To do a distribution install, you just need to add the Violet css file to your project:</p>
     <code>https://www.lexteam.xyz/violet/dist/violet.css</code><br />
     <code>https://www.lexteam.xyz/violet/dist/violet.min.css</code>
+    <p>As of Violet 1.2.0 Violet also bundles JavaScript files. <b>NOTE: Violet depends on jquery!</b></p>
+    <code>https://www.lexteam.xyz/violet/dist/violet.js</code>
 
     <h2 id="install-source" class="subtitle">Source Install</h2>
 
@@ -58,6 +60,7 @@ section: software
     <code>@import "violet/violet";</code>
     <p>When a new version of Violet is released, all you have to do is run:</p>
     <p><code>npm update lex-violet</code> and <code>violet update</code></p>
+    <p>You can do the same for the JavaScript files by using <code>violet install -t js</code></p>
 
     <h1 id="components" class="title">Components</h1>
 
@@ -75,9 +78,9 @@ section: software
         <b>NOTE: currently that is the only place we have tested it, however it should work in other places.</b>
     </p>
     <pre>
-        &lt;nav class="nav bar"&gt;
+        &lt;nav class="nav bar" onblur="navBarClose()"&gt;
             &lt;div class="header"&gt;
-                &lt;button type="button" class="toggle"&gt;
+                &lt;button type="button" class="toggle" onfocus="navBarOpen()"&gt;
                     &lt;i class="fa fa-bars"&gt;&lt;/i&gt;
                 &lt;/button&gt;
                 &lt;a href="/"&gt;
@@ -85,7 +88,7 @@ section: software
                 &lt;/a&gt;
             &lt;/div&gt;
 
-            &lt;ul&gt;
+            &lt;ul id="nav-bar"&gt;
                 &lt;li class="enabled"&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
                 &lt;li&gt;&lt;a href="/blog"&gt;Blog&lt;/a&gt;&lt;/li&gt;
                 &lt;li&gt;&lt;a href="/software"&gt;Software&lt;/a&gt;&lt;/li&gt;
