@@ -1,7 +1,8 @@
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
     cssmin = require('gulp-cssmin'),
-    rename = require('gulp-rename');
+    rename = require('gulp-rename'),
+    uglify = require('gulp-uglify');
 
 gulp.task('watch', ['build'], function () {
     gulp.watch('./src/scss/**/*.scss', ['build:scss']);
@@ -14,6 +15,11 @@ gulp.task('scss', function () {
         .pipe(gulp.dest('./dist'));
 });
 
+gulp.task('js', function () {
+    return gulp.src('./src/js/violet.js')
+        .pipe(gulp.dest('./dist'));
+});
+
 gulp.task('build:scss', ['scss'], function () {
     return gulp.src('./dist/violet.css')
         .pipe(cssmin())
@@ -21,8 +27,10 @@ gulp.task('build:scss', ['scss'], function () {
         .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('build:js', ['scss'], function () {
-    return gulp.src('./src/js/violet.js')
+gulp.task('build:js', ['js'], function () {
+    return gulp.src('./dist/violet.js')
+        .pipe(uglify())
+        .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('./dist'));
 });
 

@@ -2,7 +2,8 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     cssmin = require('gulp-cssmin'),
     rename = require('gulp-rename'),
-    shell = require('gulp-shell');
+    shell = require('gulp-shell'),
+    uglify = require('gulp-uglify');
 
 gulp.task('watch', ['build'], function () {
     gulp.watch('./violet/src/scss/**/*.scss', ['build:scss']);
@@ -15,6 +16,11 @@ gulp.task('scss', function () {
         .pipe(gulp.dest('./violet/dist'));
 });
 
+gulp.task('js', function () {
+    return gulp.src('./violet/src/js/violet.js')
+        .pipe(gulp.dest('./violet/dist'));
+})
+
 gulp.task('build:scss', ['scss'], function () {
     return gulp.src('./violet/dist/violet.css')
         .pipe(cssmin())
@@ -22,8 +28,10 @@ gulp.task('build:scss', ['scss'], function () {
         .pipe(gulp.dest('./violet/dist'));
 });
 
-gulp.task('build:js', ['scss'], function () {
-    return gulp.src('./violet/src/js/violet.js')
+gulp.task('build:js', ['js'], function () {
+    return gulp.src('./violet/dist/violet.js')
+        .pipe(uglify())
+        .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('./violet/dist'));
 });
 
