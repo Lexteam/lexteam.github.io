@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PastPapers - Where are we at?
-author: <a href="https://www.jamierocks.uk/">Jamie Mansfield</a>
+author: <a href="/about/jamie/">Jamie Mansfield</a>
 section: blog
 ---
 So recently PastPapers has become more of a priority at Lexteam, and as such a website and public API documentation has appeared.

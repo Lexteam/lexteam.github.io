@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello, World!
-author: <a href="https://www.jamierocks.uk/">Jamie Mansfield</a>
+author: <a href="/about/jamie/">Jamie Mansfield</a>
 section: blog
 ---
 Hello, World!
