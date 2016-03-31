@@ -3,15 +3,18 @@
     jamierocks - developer
         Website: https://www.jamierocks.uk/
         Twitter: @LexteamJamie
-        GitHub: https://github.com/jamierocks/
+        GitHub: https://github.com/jamierocks
 
     charlesstewart - developer
-        GitHub: https://github.com/charlesstewart/
+        GitHub: https://github.com/charlesstewart
 
     ethanriley - developer
-        GitHub: https://github.com/ethanriley/
+        GitHub: https://github.com/ethanriley
 
 /* Thanks */
+
+    sgtace - provides the lex1 server
+        Twitter: @sgtace123
 
     kenyan - graphics designer, our new logo
         Twitter: @kenyan_bro
