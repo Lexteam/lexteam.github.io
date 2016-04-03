@@ -5,23 +5,23 @@ permalink: /blog/
 section: blog
 ---
 <div class="page-container">
-	<h1 class="title center">Wait, we have a blog?</h1>
+    <h1 class="title center">Wait, we have a blog?</h1>
 
-	{% for post in site.posts %}
-	<div class="blog-post">
-		<div class="blog-heading">
-      <h1>{{ post.title }}</h1>
-      <a href="{{ post.url }}"><i style="float: right;" class="fa fa-external-link fa-2x"></i></a>
-		</div>
-		<div class="blog-subheading">
+    {% for post in site.posts %}
+    <div class="blog-post">
+        <div class="blog-heading">
+            <h1>{{ post.title }}</h1>
+            <a href="{{ post.url }}"><i style="float: right;" class="fa fa-external-link fa-2x"></i></a>
+        </div>
+        <div class="blog-subheading">
 			<span>
 				Posted on {{ post.date | date_to_long_string }}. Authored by {{ post.author }}.
 			</span>
-		</div>
+        </div>
 
-		<div class="blog-body">
-			{{ post.content }}
-		</div>
-	</div>
-	{% endfor %}
+        <div class="blog-body">
+            {{ post.content }}
+        </div>
+    </div>
+    {% endfor %}
 </div>
