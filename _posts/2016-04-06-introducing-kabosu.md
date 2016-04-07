@@ -10,7 +10,7 @@ For Kabosu's initial release we plan to have a basic GUI, alongside webhook supp
 a basic build executor.
 
 The current build executor is based around a simple ini file: ```kabosu.ini```, which defines all the build stages 
-you may have.
+you may have. I plan to document this file, before the initial release.
 
 The source is currently available on [GitHub](https://github.com/Lexteam/Kabosu).
 
