@@ -1,0 +1,41 @@
+---
+layout: default
+title: Gitignore Templates
+permalink: /utils/gitignore/
+---
+<div class="page-container">
+    <h1 class="title centre">Gitignore Templates</h1>
+
+    <h2 class="subtitle">Templates</h2>
+    <ul id="templates">
+        <li v-for="template in templates">
+            {% raw %}
+            <a :href="template.url">{{ template.name }}</a>
+            <i class="fa fa-clipboard color-black" aria-hidden="true" v-on:click="copyToClipboard()"></i>
+            {% endraw %}
+        </li>
+    </ul>
+</div>
+
+<script type="text/javascript">
+    new Vue({
+        el: '#templates',
+        data: {
+            templates: null
+        },
+        created: function () {
+            this.fetchData()
+        },
+        methods: {
+            fetchData: function () {
+                var self = this;
+                $.get('/utils/ignoretemplates.json', function (data) {
+                    self.templates = data;
+                });
+            },
+            copyToClipboard: function () {
+                // TODO: http://stackoverflow.com/a/30810322
+            }
+        }
+    });
+</script>
