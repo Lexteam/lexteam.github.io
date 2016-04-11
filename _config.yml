@@ -13,6 +13,7 @@ exclude:
   - violet/changelog.txt
   - node_modules
   - gulpfile.js
+  - kabosu.sh
   - package.json
 
 # Extra plugins
