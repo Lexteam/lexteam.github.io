@@ -1,0 +1,38 @@
+---
+layout: default
+title: Minecraft Archives
+permalink: /archives/minecraft/
+section: gaming
+---
+<div class="page-container">
+    <h1 class="title centre">Minecraft Archives</h1>
+
+    <h2 class="subtitle">Contents</h2>
+    <ul id="downloads">
+        <li v-for="download in downloads">
+            {% raw %}
+            <a :href="download.url">{{ download.name }}</a>
+            {% endraw %}
+        </li>
+    </ul>
+</div>
+
+<script>
+    new Vue({
+        el: '#downloads',
+        data: {
+            downloads: null
+        },
+        created: function () {
+            this.fetchData()
+        },
+        methods: {
+            fetchData: function () {
+                var self = this;
+                $.get('https://rawgit.com/Lexteam/Archive/master/minecraft.json', function (data) {
+                    self.downloads = data;
+                });
+            }
+        }
+    });
+</script>
