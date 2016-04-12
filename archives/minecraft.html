@@ -21,7 +21,12 @@ section: gaming
     new Vue({
         el: '#downloads',
         data: {
-            downloads: null
+            downloads: [
+                {
+                    name: 'Loading...',
+                    url: 'https://github.com/Lexteam/Archive'
+                }
+            ]
         },
         created: function () {
             this.fetchData()

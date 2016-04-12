@@ -13,7 +13,7 @@
 
 /* Thanks */
 
-    sgtace - provides the lex1 server
+    sgtace - provides the lon1 server (previously provided lex1)
         Twitter: @sgtace123
 
     kenyan - graphics designer, our new logo
