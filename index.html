@@ -20,7 +20,7 @@ section: home
             </div>
         </div>
 
-        <h1 class="center" style="font-size: 5rem;">GREETINGS. WE ARE LEXTEAM.</h1>
+        <h1 class="tagline centre">GREETINGS. WE ARE LEXTEAM.</h1>
     </div>
 
     <div class="page-container">
@@ -47,6 +47,9 @@ section: home
 
 <script type="text/javascript">
     $(document).ready(function () {
-        $('#home-slider').sliderPro();
+        $('#home-slider').sliderPro({
+            width: '100%',
+            aspectRatio: 3
+        });
     });
 </script>

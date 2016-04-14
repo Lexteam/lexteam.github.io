@@ -2,6 +2,24 @@
   margin-left: 12%;
   margin-right: 12%;
 
+  // iPhone 4/4s to iPhone 6
+  @media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+
+  // iPhone 6+
+  @media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+
   .content {
     margin-bottom: 1em;
 
