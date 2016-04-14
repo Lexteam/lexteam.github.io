@@ -1,46 +1,40 @@
-.portal {
-  @include outer-container;
-  
-  .portal-item {
-    @extend .panel;
-    @include span-columns(4);
-    @include omega(3n);
-    text-align: center;
+.portal-item {
+  @extend .panel;
+  text-align: center;
 
-    // iPhone 4/4s to iPhone 6
-    @media only screen
-    and (min-device-width: 320px)
-    and (max-device-width: 667px)
-    and (-webkit-min-device-pixel-ratio: 2) {
-      width: 100%;
-    }
+  // iPhone 4/4s to iPhone 6
+  @media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    width: 100%;
+  }
 
-    // iPhone 6+
-    @media only screen
-    and (min-device-width: 414px)
-    and (max-device-width: 736px)
-    and (-webkit-min-device-pixel-ratio: 3) {
-      width: 100%;
-    }
-    
-    .item-heading {
-      @extend .panel-heading;
-      display: block;
-      font-size: $size_portal_heading;
-      font-weight: bold;
-    }
-    
-    .item-subheading {
-      @extend .panel-subheading;
-      display: block;
-      font-size: $size_portal_subheading;
-    }
-    
-    .item-content {
-      @extend .panel-body;
-      .fa {
-        padding: 0;
-      }
+  // iPhone 6+
+  @media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    width: 100%;
+  }
+
+  .item-heading {
+    @extend .panel-heading;
+    display: block;
+    font-size: $size_portal_heading;
+    font-weight: bold;
+  }
+
+  .item-subheading {
+    @extend .panel-subheading;
+    display: block;
+    font-size: $size_portal_subheading;
+  }
+
+  .item-content {
+    @extend .panel-body;
+    .fa {
+      padding: 0;
     }
   }
 }

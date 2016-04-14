@@ -1,7 +1,8 @@
-- Complete colour classes, with both British and American spelling
+- Complete colour classes, with both British and American sp
 - Small tweaks to blog: heading and subheading now centred.
 - Now using Neat and Bourbon
-- Added portals, grids made to contain links new areas of the site (with mobile support)
+- Add grid system
+- Add portals - made to contain links new areas of the site (with mobile support)
 - Add British spelling of centre
 - Completely new nav bar design
 - Much more customisation ability.
