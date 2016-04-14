@@ -1,3 +1,27 @@
+#home-slider {
+  width: 100%;
+  height: 100%;
+  max-width: 100% !important;
+  overflow: hidden;
+  *{
+    @media (min-width: 1500px){
+      max-height: 40em !important;
+    }
+    @media (max-width: 1500px){
+      max-height: 25rem !important;
+    }
+    @media (max-width: 1269px){
+      max-height:  22.5rem !important;
+    }
+    @media (max-width: 1190px){
+      max-height: 17.5rem !important;
+    }
+    @media (max-width: 979px){
+      max-height: 14.5rem !important;
+    }
+  }
+}
+
 .slider-display {
   background: #69F0AE url("/assets/img/batthern.png");
   font-family: 'Dosis', sans-serif;
