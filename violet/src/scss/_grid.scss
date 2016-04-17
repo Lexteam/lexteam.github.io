@@ -1,28 +1,49 @@
 .grid {
   @include outer-container;
 
+  // iPhone 4/4s to iPhone 6
+  @media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    width: 100%;
+  }
+
+  // iPhone 6+
+  @media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    width: 100%;
+  }
+
   .grid-1of12 {
     @include span-columns(1);
+    @include omega(12n);
   }
 
   .grid-2of12 {
     @include span-columns(2);
+    @include omega(6n);
   }
 
   .grid-3of12 {
     @include span-columns(3);
+    @include omega(4n);
   }
 
   .grid-4of12 {
     @include span-columns(4);
+    @include omega(3n);
   }
 
   .grid-5of12 {
-     @include span-columns(5);
-   }
+    @include span-columns(5);
+  }
 
   .grid-6of12 {
     @include span-columns(6);
+    @include omega(2n);
   }
 
   .grid-7of12 {
@@ -47,5 +68,6 @@
 
   .grid-12of12 {
     @include span-columns(12);
+    @include omega(1n);
   }
 }

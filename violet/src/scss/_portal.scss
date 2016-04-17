@@ -1,4 +1,4 @@
-.portal-item {
+.portal {
   @extend .panel;
   text-align: center;
 
@@ -18,20 +18,20 @@
     width: 100%;
   }
 
-  .item-heading {
+  .portal-heading {
     @extend .panel-heading;
     display: block;
     font-size: $size_portal_heading;
     font-weight: bold;
   }
 
-  .item-subheading {
+  .portal-subheading {
     @extend .panel-subheading;
     display: block;
     font-size: $size_portal_subheading;
   }
 
-  .item-content {
+  .portal-content {
     @extend .panel-body;
     .fa {
       padding: 0;

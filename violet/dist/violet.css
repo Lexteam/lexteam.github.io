@@ -91,23 +91,23 @@ main {
   width: 100%;
   margin-bottom: 2em; }
 
-.panel, .blog-post, .portal-item {
+.panel, .blog-post, .portal {
   display: inline-block;
   width: 100%;
   height: 100%;
   margin-top: 1em;
   margin-bottom: 0.5em;
   text-align: left; }
-  .panel .panel-heading, .blog-post .panel-heading, .portal-item .panel-heading, .blog-post .blog-heading, .portal-item .item-heading {
+  .panel .panel-heading, .blog-post .panel-heading, .portal .panel-heading, .blog-post .blog-heading, .portal .portal-heading {
     font-family: 'Raleway', sans-serif;
     padding: 0.4em;
     background-color: rgba(202, 202, 202, 0.3); }
-  .panel .panel-subheading, .blog-post .panel-subheading, .portal-item .panel-subheading, .blog-post .blog-subheading, .portal-item .item-subheading {
+  .panel .panel-subheading, .blog-post .panel-subheading, .portal .panel-subheading, .blog-post .blog-subheading, .portal .portal-subheading {
     padding: 0.2em;
     background-color: rgba(192, 192, 192, 0.6); }
-  .panel .panel-body, .blog-post .panel-body, .portal-item .panel-body, .blog-post .blog-body, .portal-item .item-content {
+  .panel .panel-body, .blog-post .panel-body, .portal .panel-body, .blog-post .blog-body, .portal .portal-content {
     padding: 0.3em; }
-    .panel .panel-body h1, .blog-post .panel-body h1, .portal-item .panel-body h1, .blog-post .blog-body h1, .portal-item .item-content h1, .panel .panel-body h2, .blog-post .panel-body h2, .portal-item .panel-body h2, .blog-post .blog-body h2, .portal-item .item-content h2, .panel .panel-body h3, .blog-post .panel-body h3, .portal-item .panel-body h3, .blog-post .blog-body h3, .portal-item .item-content h3, .panel .panel-body h4, .blog-post .panel-body h4, .portal-item .panel-body h4, .blog-post .blog-body h4, .portal-item .item-content h4, .panel .panel-body h5, .blog-post .panel-body h5, .portal-item .panel-body h5, .blog-post .blog-body h5, .portal-item .item-content h5, .panel .panel-body h6, .blog-post .panel-body h6, .portal-item .panel-body h6, .blog-post .blog-body h6, .portal-item .item-content h6, .panel .panel-body p, .blog-post .panel-body p, .portal-item .panel-body p, .blog-post .blog-body p, .portal-item .item-content p, .panel .panel-body ul, .blog-post .panel-body ul, .portal-item .panel-body ul, .blog-post .blog-body ul, .portal-item .item-content ul, .panel .panel-body li, .blog-post .panel-body li, .portal-item .panel-body li, .blog-post .blog-body li, .portal-item .item-content li, .panel .panel-body img, .blog-post .panel-body img, .portal-item .panel-body img, .blog-post .blog-body img, .portal-item .item-content img {
+    .panel .panel-body h1, .blog-post .panel-body h1, .portal .panel-body h1, .blog-post .blog-body h1, .portal .portal-content h1, .panel .panel-body h2, .blog-post .panel-body h2, .portal .panel-body h2, .blog-post .blog-body h2, .portal .portal-content h2, .panel .panel-body h3, .blog-post .panel-body h3, .portal .panel-body h3, .blog-post .blog-body h3, .portal .portal-content h3, .panel .panel-body h4, .blog-post .panel-body h4, .portal .panel-body h4, .blog-post .blog-body h4, .portal .portal-content h4, .panel .panel-body h5, .blog-post .panel-body h5, .portal .panel-body h5, .blog-post .blog-body h5, .portal .portal-content h5, .panel .panel-body h6, .blog-post .panel-body h6, .portal .panel-body h6, .blog-post .blog-body h6, .portal .portal-content h6, .panel .panel-body p, .blog-post .panel-body p, .portal .panel-body p, .blog-post .blog-body p, .portal .portal-content p, .panel .panel-body ul, .blog-post .panel-body ul, .portal .panel-body ul, .blog-post .blog-body ul, .portal .portal-content ul, .panel .panel-body li, .blog-post .panel-body li, .portal .panel-body li, .blog-post .blog-body li, .portal .portal-content li, .panel .panel-body img, .blog-post .panel-body img, .portal .panel-body img, .blog-post .blog-body img, .portal .portal-content img {
       margin: 0.45em; }
 
 .nav {
@@ -312,6 +312,12 @@ main {
     clear: both;
     content: "";
     display: table; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .grid {
+      width: 100%; } }
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    .grid {
+      width: 100%; } }
   .grid .grid-1of12 {
     float: left;
     display: block;
@@ -319,6 +325,10 @@ main {
     width: 6.17215%; }
     .grid .grid-1of12:last-child {
       margin-right: 0; }
+    .grid .grid-1of12:nth-child(12n) {
+      margin-right: 0; }
+    .grid .grid-1of12:nth-child(12n+1) {
+      clear: left; }
   .grid .grid-2of12 {
     float: left;
     display: block;
@@ -326,6 +336,10 @@ main {
     width: 14.70196%; }
     .grid .grid-2of12:last-child {
       margin-right: 0; }
+    .grid .grid-2of12:nth-child(6n) {
+      margin-right: 0; }
+    .grid .grid-2of12:nth-child(6n+1) {
+      clear: left; }
   .grid .grid-3of12 {
     float: left;
     display: block;
@@ -333,6 +347,10 @@ main {
     width: 23.23176%; }
     .grid .grid-3of12:last-child {
       margin-right: 0; }
+    .grid .grid-3of12:nth-child(4n) {
+      margin-right: 0; }
+    .grid .grid-3of12:nth-child(4n+1) {
+      clear: left; }
   .grid .grid-4of12 {
     float: left;
     display: block;
@@ -340,6 +358,10 @@ main {
     width: 31.76157%; }
     .grid .grid-4of12:last-child {
       margin-right: 0; }
+    .grid .grid-4of12:nth-child(3n) {
+      margin-right: 0; }
+    .grid .grid-4of12:nth-child(3n+1) {
+      clear: left; }
   .grid .grid-5of12 {
     float: left;
     display: block;
@@ -354,6 +376,10 @@ main {
     width: 48.82117%; }
     .grid .grid-6of12:last-child {
       margin-right: 0; }
+    .grid .grid-6of12:nth-child(2n) {
+      margin-right: 0; }
+    .grid .grid-6of12:nth-child(2n+1) {
+      clear: left; }
   .grid .grid-7of12 {
     float: left;
     display: block;
@@ -396,21 +422,25 @@ main {
     width: 100%; }
     .grid .grid-12of12:last-child {
       margin-right: 0; }
+    .grid .grid-12of12:nth-child(1n) {
+      margin-right: 0; }
+    .grid .grid-12of12:nth-child(1n+1) {
+      clear: left; }
 
-.portal-item {
+.portal {
   text-align: center; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-    .portal-item {
+    .portal {
       width: 100%; } }
   @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-    .portal-item {
+    .portal {
       width: 100%; } }
-  .portal-item .item-heading {
+  .portal .portal-heading {
     display: block;
     font-size: 1.5rem;
     font-weight: bold; }
-  .portal-item .item-subheading {
+  .portal .portal-subheading {
     display: block;
     font-size: 1rem; }
-  .portal-item .item-content .fa {
+  .portal .portal-content .fa {
     padding: 0; }
