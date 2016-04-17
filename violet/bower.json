@@ -1,0 +1,36 @@
+{
+    "name": "violet",
+    "description": "The Lexteam CSS/JS Framework",
+    "main": [
+        "dist/violet.css",
+        "dist/violet.js"
+    ],
+    "keywords": [
+        "css",
+        "js",
+        "framework"
+    ],
+    "authors": [
+        "Jamie Mansfield <dev@jamierocks.uk> (https://www.jamierocks.uk/>",
+        "Tom Drever",
+        "Ethan Riley"
+    ],
+    "license": "MIT",
+    "homepage": "http://www.lexteam.xyz/software/violet/",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Lexteam/lexteam.github.io.git"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "release",
+        "cli.js",
+        "gulpfile.js",
+        "changelog.txt"
+    ],
+    "dependencies": {
+        "jquery": "^2.2.3"
+    }
+}

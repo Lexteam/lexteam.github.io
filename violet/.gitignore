@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/osx,linux,windows,intellij,node,jekyll,visualstudiocode
+# Created by https://www.gitignore.io/api/osx,linux,windows,intellij,node,jekyll,visualstudiocode,bower
 
 ### OSX ###
 .DS_Store
@@ -135,3 +135,10 @@ _site/
 
 ### VisualStudioCode ###
 .vscode
+
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
