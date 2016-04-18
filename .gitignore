@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/osx,linux,windows,intellij,node,jekyll,visualstudiocode
+# Created by https://www.gitignore.io/api/osx,linux,windows,intellij,node,jekyll,visualstudiocode,bower
 
 ### OSX ###
 .DS_Store

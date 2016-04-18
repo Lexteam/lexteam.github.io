@@ -91,25 +91,6 @@ main {
   width: 100%;
   margin-bottom: 2em; }
 
-.panel, .blog-post, .portal {
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
-  text-align: left; }
-  .panel .panel-heading, .blog-post .panel-heading, .portal .panel-heading, .blog-post .blog-heading, .portal .portal-heading {
-    font-family: 'Raleway', sans-serif;
-    padding: 0.4em;
-    background-color: rgba(202, 202, 202, 0.3); }
-  .panel .panel-subheading, .blog-post .panel-subheading, .portal .panel-subheading, .blog-post .blog-subheading, .portal .portal-subheading {
-    padding: 0.2em;
-    background-color: rgba(192, 192, 192, 0.6); }
-  .panel .panel-body, .blog-post .panel-body, .portal .panel-body, .blog-post .blog-body, .portal .portal-content {
-    padding: 0.3em; }
-    .panel .panel-body h1, .blog-post .panel-body h1, .portal .panel-body h1, .blog-post .blog-body h1, .portal .portal-content h1, .panel .panel-body h2, .blog-post .panel-body h2, .portal .panel-body h2, .blog-post .blog-body h2, .portal .portal-content h2, .panel .panel-body h3, .blog-post .panel-body h3, .portal .panel-body h3, .blog-post .blog-body h3, .portal .portal-content h3, .panel .panel-body h4, .blog-post .panel-body h4, .portal .panel-body h4, .blog-post .blog-body h4, .portal .portal-content h4, .panel .panel-body h5, .blog-post .panel-body h5, .portal .panel-body h5, .blog-post .blog-body h5, .portal .portal-content h5, .panel .panel-body h6, .blog-post .panel-body h6, .portal .panel-body h6, .blog-post .blog-body h6, .portal .portal-content h6, .panel .panel-body p, .blog-post .panel-body p, .portal .panel-body p, .blog-post .blog-body p, .portal .portal-content p, .panel .panel-body ul, .blog-post .panel-body ul, .portal .panel-body ul, .blog-post .blog-body ul, .portal .portal-content ul, .panel .panel-body li, .blog-post .panel-body li, .portal .panel-body li, .blog-post .blog-body li, .portal .portal-content li, .panel .panel-body img, .blog-post .panel-body img, .portal .panel-body img, .blog-post .blog-body img, .portal .portal-content img {
-      margin: 0.45em; }
-
 .nav {
   padding: 0; }
   .nav * {
@@ -204,105 +185,24 @@ main {
     text-transform: uppercase;
     color: #7BD678; }
 
-.blog-post .blog-heading * {
-  display: inline;
-  text-align: center; }
-
-.blog-post .blog-subheading {
-  font-size: 0.75rem; }
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  .blog-post .blog-body img {
-    width: 100%; } }
-
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  .blog-post .blog-body img {
-    width: 100%; } }
-
-.colour-navy, .color-navy {
-  color: #001f3f; }
-  .colour-navy a:visited, .color-navy a:visited {
-    color: #001f3f; }
-
-.colour-blue, .color-blue {
-  color: #0074D9; }
-  .colour-blue a:visited, .color-blue a:visited {
-    color: #0074D9; }
-
-.colour-aqua, .color-aqua {
-  color: #7FDBFF; }
-  .colour-aqua a:visited, .color-aqua a:visited {
-    color: #7FDBFF; }
-
-.colour-teal, .color-teal {
-  color: #39CCCC; }
-  .colour-teal a:visited, .color-teal a:visited {
-    color: #39CCCC; }
-
-.colour-olive, .color-olive {
-  color: #3D9970; }
-  .colour-olive a:visited, .color-olive a:visited {
-    color: #3D9970; }
-
-.colour-green, .color-green {
-  color: #2ECC40; }
-  .colour-green a:visited, .color-green a:visited {
-    color: #2ECC40; }
-
-.colour-lime, .color-lime {
-  color: #01FF70; }
-  .colour-lime a:visited, .color-lime a:visited {
-    color: #01FF70; }
-
-.colour-yellow, .color-yellow {
-  color: #FFDC00; }
-  .colour-yellow a:visited, .color-yellow a:visited {
-    color: #FFDC00; }
-
-.colour-orange, .color-orange {
-  color: #FF851B; }
-  .colour-orange a:visited, .color-orange a:visited {
-    color: #FF851B; }
-
-.colour-red, .color-red {
-  color: #FF4136; }
-  .colour-red a:visited, .color-red a:visited {
-    color: #FF4136; }
-
-.colour-maroon, .color-maroon {
-  color: #85144b; }
-  .colour-maroon a:visited, .color-maroon a:visited {
-    color: #85144b; }
-
-.colour-fuchsia, .color-fuchsia {
-  color: #F012BE; }
-  .colour-fuchsia a:visited, .color-fuchsia a:visited {
-    color: #F012BE; }
-
-.colour-purple, .color-purple {
-  color: #B10DC9; }
-  .colour-purple a:visited, .color-purple a:visited {
-    color: #B10DC9; }
-
-.colour-black, .color-black {
-  color: #111111; }
-  .colour-black a:visited, .color-black a:visited {
-    color: #111111; }
-
-.colour-grey, .color-gray {
-  color: #AAAAAA; }
-  .colour-grey a:visited, .color-gray a:visited {
-    color: #AAAAAA; }
-
-.colour-silver, .color-silver {
-  color: #DDDDDD; }
-  .colour-silver a:visited, .color-silver a:visited {
-    color: #DDDDDD; }
-
-.colour-white, .color-white {
-  color: #FFFFFF; }
-  .colour-white a:visited, .color-white a:visited {
-    color: #FFFFFF; }
+.panel, .portal, .blog-post {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-align: left; }
+  .panel .panel-heading, .portal .panel-heading, .blog-post .panel-heading, .portal .portal-heading, .blog-post .blog-heading {
+    font-family: 'Raleway', sans-serif;
+    padding: 0.4em;
+    background-color: rgba(202, 202, 202, 0.3); }
+  .panel .panel-subheading, .portal .panel-subheading, .blog-post .panel-subheading, .portal .portal-subheading, .blog-post .blog-subheading {
+    padding: 0.2em;
+    background-color: rgba(192, 192, 192, 0.6); }
+  .panel .panel-body, .portal .panel-body, .blog-post .panel-body, .portal .portal-content, .blog-post .blog-body {
+    padding: 0.3em; }
+    .panel .panel-body h1, .portal .panel-body h1, .blog-post .panel-body h1, .portal .portal-content h1, .blog-post .blog-body h1, .panel .panel-body h2, .portal .panel-body h2, .blog-post .panel-body h2, .portal .portal-content h2, .blog-post .blog-body h2, .panel .panel-body h3, .portal .panel-body h3, .blog-post .panel-body h3, .portal .portal-content h3, .blog-post .blog-body h3, .panel .panel-body h4, .portal .panel-body h4, .blog-post .panel-body h4, .portal .portal-content h4, .blog-post .blog-body h4, .panel .panel-body h5, .portal .panel-body h5, .blog-post .panel-body h5, .portal .portal-content h5, .blog-post .blog-body h5, .panel .panel-body h6, .portal .panel-body h6, .blog-post .panel-body h6, .portal .portal-content h6, .blog-post .blog-body h6, .panel .panel-body p, .portal .panel-body p, .blog-post .panel-body p, .portal .portal-content p, .blog-post .blog-body p, .panel .panel-body ul, .portal .panel-body ul, .blog-post .panel-body ul, .portal .portal-content ul, .blog-post .blog-body ul, .panel .panel-body li, .portal .panel-body li, .blog-post .panel-body li, .portal .portal-content li, .blog-post .blog-body li, .panel .panel-body img, .portal .panel-body img, .blog-post .panel-body img, .portal .portal-content img, .blog-post .blog-body img {
+      margin: 0.45em; }
 
 .grid {
   max-width: 1200px;
@@ -444,3 +344,103 @@ main {
     font-size: 1rem; }
   .portal .portal-content .fa {
     padding: 0; }
+
+.blog-post .blog-heading * {
+  display: inline;
+  text-align: center; }
+
+.blog-post .blog-subheading {
+  font-size: 0.75rem; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .blog-post .blog-body img {
+    width: 100%; } }
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .blog-post .blog-body img {
+    width: 100%; } }
+
+.colour-navy, .color-navy {
+  color: #001f3f; }
+  .colour-navy a:visited, .color-navy a:visited {
+    color: #001f3f; }
+
+.colour-blue, .color-blue {
+  color: #0074D9; }
+  .colour-blue a:visited, .color-blue a:visited {
+    color: #0074D9; }
+
+.colour-aqua, .color-aqua {
+  color: #7FDBFF; }
+  .colour-aqua a:visited, .color-aqua a:visited {
+    color: #7FDBFF; }
+
+.colour-teal, .color-teal {
+  color: #39CCCC; }
+  .colour-teal a:visited, .color-teal a:visited {
+    color: #39CCCC; }
+
+.colour-olive, .color-olive {
+  color: #3D9970; }
+  .colour-olive a:visited, .color-olive a:visited {
+    color: #3D9970; }
+
+.colour-green, .color-green {
+  color: #2ECC40; }
+  .colour-green a:visited, .color-green a:visited {
+    color: #2ECC40; }
+
+.colour-lime, .color-lime {
+  color: #01FF70; }
+  .colour-lime a:visited, .color-lime a:visited {
+    color: #01FF70; }
+
+.colour-yellow, .color-yellow {
+  color: #FFDC00; }
+  .colour-yellow a:visited, .color-yellow a:visited {
+    color: #FFDC00; }
+
+.colour-orange, .color-orange {
+  color: #FF851B; }
+  .colour-orange a:visited, .color-orange a:visited {
+    color: #FF851B; }
+
+.colour-red, .color-red {
+  color: #FF4136; }
+  .colour-red a:visited, .color-red a:visited {
+    color: #FF4136; }
+
+.colour-maroon, .color-maroon {
+  color: #85144b; }
+  .colour-maroon a:visited, .color-maroon a:visited {
+    color: #85144b; }
+
+.colour-fuchsia, .color-fuchsia {
+  color: #F012BE; }
+  .colour-fuchsia a:visited, .color-fuchsia a:visited {
+    color: #F012BE; }
+
+.colour-purple, .color-purple {
+  color: #B10DC9; }
+  .colour-purple a:visited, .color-purple a:visited {
+    color: #B10DC9; }
+
+.colour-black, .color-black {
+  color: #111111; }
+  .colour-black a:visited, .color-black a:visited {
+    color: #111111; }
+
+.colour-grey, .color-gray {
+  color: #AAAAAA; }
+  .colour-grey a:visited, .color-gray a:visited {
+    color: #AAAAAA; }
+
+.colour-silver, .color-silver {
+  color: #DDDDDD; }
+  .colour-silver a:visited, .color-silver a:visited {
+    color: #DDDDDD; }
+
+.colour-white, .color-white {
+  color: #FFFFFF; }
+  .colour-white a:visited, .color-white a:visited {
+    color: #FFFFFF; }

@@ -6,16 +6,15 @@
 @import "neat/neat";
 
 @import "variables";
+
 @import "base";
-
 @import "page";
-@import "panel";
-
 @import "nav";
 @import "footer";
 
-@import "blog";
-@import "colour";
-
+@import "panel";
 @import "grid";
 @import "portal";
+@import "blog";
+
+@import "colour";
