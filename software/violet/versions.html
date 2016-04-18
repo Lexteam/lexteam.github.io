@@ -1,0 +1,67 @@
+---
+layout: default
+title: Violet Versions
+permalink: /software/violet/versions/
+section: software
+---
+<div class="page-container" id="downloads">
+    <h1 class="title centre">Violet Versions</h1>
+
+    <h2 class="subtitle">Releases</h2>
+    <div class="grid">
+        <div v-for="release in releases" class="grid-3of12 portal">
+            <div class="portal-content grid">
+                <a :href="release.links.download" class="grid-6of12">
+                    <i class="fa fa-download colour-blue" style="font-size: 120px; padding: 0;"></i>
+                </a>
+                <a :href="release.links.documentation" class="grid-6of12">
+                    <i class="fa fa-book colour-blue" style="font-size: 120px; padding: 0;"></i>
+                </a>
+            </div>
+            {% raw %}
+            <span class="portal-heading">{{ release.version }}</span>
+            <span class="portal-subheading">{{ release.released }}</span>
+            {% endraw %}
+        </div>
+    </div>
+
+    <h2 class="subtitle">Pre Releases</h2>
+    <div class="grid">
+        <div v-for="release in pre_releases" class="grid-3of12 portal">
+            <div class="portal-content grid">
+                <a :href="release.links.download" class="grid-6of12">
+                    <i class="fa fa-download colour-blue" style="font-size: 120px; padding: 0;"></i>
+                </a>
+                <a :href="release.links.documentation" class="grid-6of12">
+                    <i class="fa fa-book colour-blue" style="font-size: 120px; padding: 0;"></i>
+                </a>
+            </div>
+            {% raw %}
+            <span class="portal-heading">{{ release.version }}</span>
+            <span class="portal-subheading">{{ release.released }}</span>
+            {% endraw %}
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    new Vue({
+        el: '#downloads',
+        data: {
+            releases: null,
+            pre_releases: null
+        },
+        created: function () {
+            this.fetchData()
+        },
+        methods: {
+            fetchData: function () {
+                var self = this;
+                $.get('/downloads/violet/releases.json', function (data) {
+                    self.releases = data.channels.release;
+                    self.pre_releases = data.channels.pre_release;
+                });
+            }
+        }
+    });
+</script>
