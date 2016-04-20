@@ -2,6 +2,7 @@
   "name": "lex-site",
   "version": "1.0.0-indev",
   "description": "lex-site - The Lexteam website.",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/Lexteam/lexteam.github.io.git"
