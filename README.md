@@ -6,13 +6,27 @@ lex-site
 
 The Lexteam website and Violet CSS framework.
 
-## Violet
+## Running Locally
 
-Violet is a css and js framework developed alongside lex-site, it currently resides inside the lex-site repository 
-and is also under the MIT license. It is worth noting that it also contains Bourbon and Neat, which are also MIT 
-licensed.
+### 1. Prerequisites
 
-Violet is also available through the [Lexteam/Violet](https://github.com/Lexteam/Violet) repo thanks to subtrees.
+- [Jekyll](https://jekyllrb.com/docs/installation/)
+- [node.js](http://nodejs.org/download/)
+
+### 2. Installing Gulp
+
+```
+npm install gulp --global
+npm install
+```
+
+Now you are ready to use Gulp.
+
+### 3. Using Gulp
+
+For just building the SASS / JS use `gulp build`.
+For just watching the SASS / JS use `gulp watch`.
+For watching the SASS / JS and serving use `gulp serve`.
 
 ## License
 
