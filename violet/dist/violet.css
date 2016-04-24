@@ -212,12 +212,6 @@ main {
     clear: both;
     content: "";
     display: table; }
-  @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-    .grid {
-      width: 100%; } }
-  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-    .grid {
-      width: 100%; } }
   .grid .grid-1of12 {
     float: left;
     display: block;
@@ -326,6 +320,14 @@ main {
       margin-right: 0; }
     .grid .grid-12of12:nth-child(1n+1) {
       clear: left; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .grid .grid-1of12, .grid .grid-2of12, .grid .grid-3of12, .grid .grid-4of12, .grid .grid-5of12, .grid .grid-6of12,
+    .grid .grid-7of12, .grid .grid-8of12, .grid .grid-9of12, .grid .grid-10of12, .grid .grid-11of12, .grid .grid-12of12 {
+      width: 100%; } }
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    .grid .grid-1of12, .grid .grid-2of12, .grid .grid-3of12, .grid .grid-4of12, .grid .grid-5of12, .grid .grid-6of12,
+    .grid .grid-7of12, .grid .grid-8of12, .grid .grid-9of12, .grid .grid-10of12, .grid .grid-11of12, .grid .grid-12of12 {
+      width: 100%; } }
 
 .portal {
   text-align: center; }
