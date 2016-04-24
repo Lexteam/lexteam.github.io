@@ -1,7 +1,7 @@
-function navBarOpen() {
-    $('#nav-bar').show();
-}
+$(document).ready(function ($) {
 
-function navBarClose() {
-    $('#nav-bar').hide();
-}
+    $('#navbar-menu').on('click', function () {
+        $('#nav-bar').toggle();
+    });
+
+});
