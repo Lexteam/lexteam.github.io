@@ -12,7 +12,7 @@
                 "released": "3rd March 2016",
                 "links": {
                     "download": "/downloads/violet/1.1.1.zip",
-                    "documentation": "/software/violet/documentation/legacy"
+                    "documentation": "/documentation/violet/legacy"
                 }
             },
             {
@@ -20,7 +20,7 @@
                 "released": "27th February 2016",
                 "links": {
                     "download": "/downloads/violet/1.1.0.zip",
-                    "documentation": "/software/violet/documentation/legacy"
+                    "documentation": "/documentation/violet/legacy"
                 }
             },
             {
@@ -28,7 +28,7 @@
                 "released": "15th February 2016",
                 "links": {
                     "download": "/downloads/violet/1.0.1.zip",
-                    "documentation": "/software/violet/documentation/legacy"
+                    "documentation": "/documentation/violet/legacy"
                 }
             },
             {
@@ -36,17 +36,25 @@
                 "released": "30th December 2015",
                 "links": {
                     "download": "/downloads/violet/1.0.0.zip",
-                    "documentation": "/software/violet/documentation/legacy"
+                    "documentation": "/documentation/violet/legacy"
                 }
             }
         ],
         "pre_release": [
             {
+                "version": "1.2.0-rc2",
+                "released": "24th April 2016",
+                "links": {
+                    "download": "/downloads/violet/1.2.0-rc2.zip",
+                    "documentation": "/documentation/violet/1.2.0-indev"
+                }
+            },
+            {
                 "version": "1.2.0-rc1",
                 "released": "13th April 2016",
                 "links": {
                     "download": "/downloads/violet/1.2.0-rc1.zip",
-                    "documentation": "/software/violet/documentation/1.2.0-indev"
+                    "documentation": "/documentation/violet/1.2.0-indev"
                 }
             }
         ]
