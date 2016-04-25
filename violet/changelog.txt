@@ -1,4 +1,4 @@
-- Complete colour classes, with both British and American sp
+- Complete colour classes, with both British and American spelling
 - Small tweaks to blog: heading and subheading now centred.
 - Now using Neat and Bourbon
 - Add grid system
