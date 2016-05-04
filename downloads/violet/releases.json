@@ -8,6 +8,14 @@
     "channels": {
         "release": [
             {
+                "version": "1.2.0",
+                "released": "4rd May 2016",
+                "links": {
+                    "download": "/downloads/violet/1.2.0.zip",
+                    "documentation": "/documentation/violet/1.2.0"
+                }
+            },
+            {
                 "version": "1.1.1",
                 "released": "3rd March 2016",
                 "links": {
@@ -46,7 +54,7 @@
                 "released": "24th April 2016",
                 "links": {
                     "download": "/downloads/violet/1.2.0-rc2.zip",
-                    "documentation": "/documentation/violet/1.2.0-indev"
+                    "documentation": "/documentation/violet/1.2.0"
                 }
             },
             {
@@ -54,7 +62,7 @@
                 "released": "13th April 2016",
                 "links": {
                     "download": "/downloads/violet/1.2.0-rc1.zip",
-                    "documentation": "/documentation/violet/1.2.0-indev"
+                    "documentation": "/documentation/violet/1.2.0"
                 }
             }
         ]
