@@ -4,6 +4,14 @@
 
 <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
 
+{% if page.description %}
+<meta name="description" content="{{ page.description }}" />
+{% else %}
+<meta name="description"
+      content="Lexteam is a small team consisting of three developers, of which strive to create new and innovate software." />
+{% endif %}
+<meta name="author" content="Lexteam" />
+
 {% if page.violet-version %}
 <link rel="stylesheet" href="/violet/release/{{ page.violet-version }}/violet.min.css" />
 {% else %}
