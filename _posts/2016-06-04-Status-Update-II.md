@@ -6,7 +6,7 @@ section: blog
 ---
 ## Website
 
-The past few months have been hectic and we have made great leaps in out site's design. Although there are still 
+The past few months have been hectic and we have made great leaps in our site's design. Although there are still 
 things that need touching up on - we may be on the verge on sticking with a design.
 
 Mobile has been a big aspiration of mine ever since we started our site, and as such mobile support is now in place. 
