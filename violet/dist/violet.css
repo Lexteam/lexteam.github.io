@@ -146,12 +146,9 @@ main {
     float: right;
     padding-top: 0.95em; }
   .bar li {
-    padding: 0.25em 0 calc(0.25em - 0.4em) 0.4em; }
-    .bar li:not(:last-child):before {
-      padding-left: 0.4em;
-      content: " \2022 "; }
+    padding: 0.25em 0.7em calc(0.25em - 0.4em) 0.4em; }
     .bar li:last-child {
-      padding-right: 1.5em; }
+      padding-right: 2em; }
   .bar .brand {
     padding: 0.25em 0.8em calc(0.25em - 0.4em) 0.8em;
     font-size: x-large;

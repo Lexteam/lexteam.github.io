@@ -109,15 +109,10 @@
   }
 
   li {
-    padding: 0.25em 0 calc(0.25em - 0.4em) 0.4em;
-    
-    &:not(:last-child):before {
-      padding-left: 0.4em;
-      content: " \2022 "
-    }
+    padding: 0.25em 0.7em calc(0.25em - 0.4em) 0.4em;
     
     &:last-child {
-      padding-right: 1.5em;
+      padding-right: 2em;
     }
   }
 
