@@ -14,6 +14,7 @@
 /* Thanks */
 
     sgtace - provides the lon1 server (previously provided lex1)
+        Website: http://sgtace.com/
         Twitter: @sgtace123
 
     kenyan - graphics designer, our new logo
