@@ -114,6 +114,8 @@ main {
     .nav li a {
       color: #111111;
       text-decoration: none; }
+    .nav li *:hover {
+      text-decoration: underline; }
   .nav .enabled a {
     text-decoration: underline; }
   .nav .header .toggle {

@@ -42,6 +42,12 @@
       color: $colour_navbar_foreground;
       text-decoration: none;
     }
+
+    * {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 
   .enabled a {
