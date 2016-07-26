@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Calling All Developers
-author: <a href="/about/jamie/">Jamie Mansfield</a>
+author: BlockJam Team
 section: blog
 ---
-# Calling All Developers!
-
-Hello Sponge Forums! We're the developers behind an event you may have heard of called BlockJam. BlockJam is essentially a 48-hour-long semi-annual
+Hello! We're the developers behind an event you may have heard of called BlockJam. BlockJam is essentially a 48-hour-long semi-annual
 event held to raise money for [Child's Play](http://childsplaycharity.org/), a charity which seeks to improve the lives of children in hospitals and
 domestic violence shelters. Participants purchase tickets ahead of time and have access to our server network for the duration of the event. Proceeds
 from tickets sold go directly to the charity.
@@ -21,4 +19,4 @@ ASAP.
 
 For more detailed information about the event itself, watch [this video](https://www.youtube.com/watch?v=4fnAI1l7KA0) from last year's event.
 
-- Jamie
+- BlockJam Team
