@@ -21,7 +21,7 @@ team of three. Making our [first commit] to the project on April 21st 2015. Star
 As one project comes to a close another takes its place, right? This is perhaps the most exciting news of the status update, we are 'working' on a 
 new game. Now I should state that when I say 'working' I mean deliberating on everything about the game, we currently look to be doing a 
 buisness-style game for Android called Taxin. Its all rather hush-hush secretive at the moment so there isn't all too much I can share other then 
-if the current plan sticks, the will be open-source! Check out the [Taxin] repo.
+if the current plan sticks, it will be open-source! Check out the [Taxin] repo.
 
 Well that wraps up this Status Update, and perhaps these will become a more regular thing.
 
