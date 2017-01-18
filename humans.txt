@@ -1,15 +1,15 @@
 /* Team */
 
-    jamierocks - developer
+    Jamie Mansfield - developer
         Website: https://www.jamierocks.uk/
-        Twitter: @LexteamJamie
+        Twitter: @jamiethecoder
         GitHub: https://github.com/jamierocks
 
-    charlesstewart - developer
-        GitHub: https://github.com/charlesstewart
+    Tom Drever - developer
+        GitHub: https://github.com/tomdrever
 
-    ethanriley - developer
-        GitHub: https://github.com/ethanriley
+    Ethan Riley - developer
+        GitHub: https://github.com/UnkDevE
 
 /* Thanks */
 
