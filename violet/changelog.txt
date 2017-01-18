@@ -1,1 +1,3 @@
-
+- Removed bullet points from nav-bar
+- Improved spacing on nav-bar
+- Underline on hover on nav-bar items
