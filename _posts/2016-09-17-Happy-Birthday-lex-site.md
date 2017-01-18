@@ -19,3 +19,5 @@ It's been one hell of a journey and here are some of our key moments:
 There are many, many more commits that could have been listed but with 250+ to choose from, these are some of the biggest.
 
 Here's to the next year of development on lex-site!
+
+- Jamie
