@@ -1,7 +1,10 @@
 # General stuff
 name: Lexteam
 url: https://www.lexteam.xyz
+description: Lexteam is a small team consisting of three developers, of which strive to create new and innovative software.
 
+# These files are excluded from the Jekyll build
+# With node, this is rather important ;)
 exclude:
   - etc
   - violet/src
