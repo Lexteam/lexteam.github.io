@@ -35,9 +35,7 @@ gulp.task('build:js', ['js'], function () {
         .pipe(gulp.dest('./violet/dist'));
 });
 
-gulp.task('build', ['build:js', 'build:scss'], function () {
-
-});
+gulp.task('build', ['build:js', 'build:scss']);
 
 gulp.task('serve', ['watch'], shell.task([
     'jekyll serve'
