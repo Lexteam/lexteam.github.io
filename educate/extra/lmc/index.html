@@ -1,0 +1,162 @@
+---
+layout: default
+title: Little Man Computer User Guide
+permalink: /educate/extra/lmc/
+section: educate
+---
+<div id="home">
+    <div class="page-display slider-display">
+        <h1 class="tagline centre">Little Man Computer User Guide</h1>
+
+        <h3 class="centre">The basic one. &nbsp; <a href="/educate/extra/">Back</a></h3>
+        &nbsp;
+    </div>
+</div>
+
+<div class="page-container">
+    <h2 class="subtitle">Links</h2>
+
+    <ul>
+        <li><a href="http://peterhigginson.co.uk/LMC/">Peter Higginson's LMC implementation</a></li>
+        <li><a href="http://peterhigginson.co.uk/LMC/help.html">Help Page from Peter Higginson's LMC implementation]</a></li>
+    </ul>
+
+    <h2 class="subtitle">Preamble</h2>
+
+    <p>
+        <b>The mbs-cs team have created a <a href="https://github.com/mbs-cs/lmc-examples">GitHub repository</a> dedicated to LMC examples.</b>
+    </p>
+
+    <h2 class="subtitle">Glossary</h2>
+
+    <p>Knowing the definition of the following words is required to fully understand the User Guide.</p>
+    <br>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Word / Phrase</th>
+            <th>Definition</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Accumulator</td>
+            <td>Stores the result of the last operation or calculation.</td>
+        </tr>
+        <tr>
+            <td>Program Counter</td>
+            <td>Stores the memory location of the next operation to be executed.</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h2 class="subtitle">Basic Instructions</h2>
+
+    <p>The following is a list of the basic instructions that can be performed on LMC.</p>
+    <br>
+
+    <table class="table table-striped table-hover">
+        <thead>
+        <tr>
+            <th>Instruction</th>
+            <th>Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>HLT</td>
+            <td>Signifies the end of the program.</td>
+        </tr>
+        <tr>
+            <td>INP</td>
+            <td>Waits for numeric input and stores it in the accumulator.</td>
+        </tr>
+        <tr>
+            <td>OUT</td>
+            <td>Outputs the contents of the accumulator.</td>
+        </tr>
+        <tr>
+            <td>ADD</td>
+            <td>Adds the contents of the given memory address to the accumulator.</td>
+        </tr>
+        <tr>
+            <td>SUB</td>
+            <td>Subtracts the contents of the given memory address from the accumulator.</td>
+        </tr>
+        <tr>
+            <td>STA</td>
+            <td>Stores the contents of the accumulator to the given memory address.</td>
+        </tr>
+        <tr>
+            <td>LDA</td>
+            <td>Loads the contents of the given memory address to the accumulator.</td>
+        </tr>
+        <tr>
+            <td>DAT</td>
+            <td>Stores the given value in the memory address of the instruction.</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h2 class="subtitle">Example (basic_calc)</h2>
+
+    <p>Using the knowledge you've gained above, you should be able to build a simple calculator program like the one below:</p>
+
+    <pre class="assembler">
+    INP    # Waits for input and stores it in the accumulator
+    STA 99 # Stores the contents of the accumulator to the memory address: 99
+    INP    # Waits for input and stores it in the accumulator
+    ADD 99 # Add the contents of memory address: 99 to the accumulator
+    OUT    # Outputs the contents of the accumulator
+    HLT    # Signify the end of the program
+    </pre>
+
+    <h2 class="subtitle">Labels</h2>
+
+    <p>
+        In larger programs, you may be storing lots of data, so using raw memory locations all over the place probably isn't the best of ideas. Labels
+        solve this problem, and make you code neater at the same time.
+    </p>
+
+    <p>
+        Labels represents a memory address, and can be defined anywhere in your program.
+    </p>
+
+    <h2 class="subtitle">Representing an instruction (labels_basic)</h2>
+
+    <p>
+        Here we are using a label to represent the memory location of an instruction.
+    </p>
+
+    <pre class="assembler">
+START INP    # Waits for input and stores it in the accumulator
+      STA 99 # Stores the contents of the accumulator to the memory address: 99
+      INP    # Waits for input and stores it in the accumulator
+      ADD 99 # Add the contents of memory address: 99 to the accumulator
+      OUT    # Outputs the contents of the accumulator
+      HLT    # Signify the end of the program
+    </pre>
+
+    <h2 class="subtitle">Representing a memory location for data (labels_advanced)</h2>
+
+    <p>
+        Here we are using a label to represent the memory location of data.
+    </p>
+
+    <pre class="assembler">
+START INP     # Waits for input and stores it in the accumulator
+      STA NUM # Stores the contents of the accumulator to the memory address of the label: NUM
+      INP     # Waits for input and stores it in the accumulator
+      ADD NUM # Add the contents of memory address of the label: NUM to the accumulator
+      OUT     # Outputs the contents of the accumulator
+      HLT     # Signify the end of the program
+NUM   DAT 1   # Defines the label: NUM as containing data, and sets it to a preset of 1
+    </pre>
+
+    <h2 class="subtitle">Where next?</h2>
+
+    <p>
+        Eager to continue learning Little Man Computer? Check out our <a href="/educate/extra/lmc/advanced">extended User Guide</a>.
+    </p>
+</div>
