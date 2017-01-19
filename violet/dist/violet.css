@@ -91,6 +91,18 @@ main {
   width: 100%;
   margin-bottom: 2em; }
 
+table {
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  border-collapse: collapse; }
+  table thead {
+    border-bottom: 1px solid #333; }
+  table td, table th {
+    padding: 0.5em 2em; }
+  table tbody tr:nth-child(2n + 1) {
+    background-color: rgba(0, 0, 0, 0.2); }
+
 .nav {
   padding: 0; }
   .nav * {
