@@ -8,6 +8,14 @@
     "channels": {
         "release": [
             {
+                "version": "1.2.1",
+                "released": "18th January 2017",
+                "links": {
+                    "download": "/downloads/violet/1.2.1.zip",
+                    "documentation": "/documentation/violet/1.2.0"
+                }
+            },
+            {
                 "version": "1.2.0",
                 "released": "4th May 2016",
                 "links": {
