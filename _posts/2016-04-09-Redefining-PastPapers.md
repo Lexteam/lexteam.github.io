@@ -7,8 +7,8 @@ section: blog
 What is now a couple weeks ago, we had a chat about how we'd like to proceed with PastPapers and although I'm 
 reluctant to reveal everything in this blog post I would like to talk about why we decided to review what we were doing.
 
-Every team be it big or small doesn't do things for the sake of it or because it follows 'the plan'. Despite having 
-what you think is a rock-solid plan, things may fall through, you might start to see that 'the plan' wasn't as good as 
+Every team be it big or small does'nt do things for the sake of it or because it follows 'the plan'. Despite having 
+what you think is a rock-solid plan, things may fall through, you might start to see that 'the plan' was'nt as good as 
 you'd originally thought. Often this may fall into making the best piece of software, following your own set of 
 limitations, not making a different project because of limitations of a third-party.
 
