@@ -1,7 +1,7 @@
 {
   "name": "lex-site",
   "version": "1.0.0-indev",
-  "description": "lex-site - The Lexteam website.",
+  "description": "The Lexteam website.",
   "private": true,
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/Lexteam/lexteam.github.io/issues"
   },
-  "homepage": "https://github.com/Lexteam/lexteam.github.io",
+  "homepage": "https://www.lexteam.xyz/",
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.0",

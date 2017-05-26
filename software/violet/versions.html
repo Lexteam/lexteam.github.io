@@ -48,8 +48,8 @@ section: software
     new Vue({
         el: '#downloads',
         data: {
-            releases: null,
-            pre_releases: null
+            releases: {},
+            pre_releases: {}
         },
         created: function () {
             this.fetchData()

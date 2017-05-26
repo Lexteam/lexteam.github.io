@@ -1,14 +1,17 @@
-# Violet CLI
+Violet
+======
 
-The Violet CLI is a command line tool for installing Violet.
+Violet is the frontend-framework developed and used by Lexteam. See the [Documentation]
+for more information.
 
-## Installation
+## CLI
+
+As one of our distribution methods, we developed a simple CLI for obtaining the Violet
+sources (SCSS and JS).
 
 ```bash
-npm install lex-violet --global
+npm install -g lex-violet
 violet install
 ```
 
-## Violet Documentation
-
-**See https://www.lexteam.xyz/software/violet/documentation/**
+[Documentation]: https://www.lexteam.xyz/software/violet/documentation/

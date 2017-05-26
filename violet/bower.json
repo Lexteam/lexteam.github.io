@@ -23,12 +23,13 @@
     },
     "ignore": [
         "**/.*",
-        "node_modules",
         "bower_components",
+        "node_modules",
         "release",
+        "changelog.txt",
         "cli.js",
         "gulpfile.js",
-        "changelog.txt"
+        "yarn.lock"
     ],
     "dependencies": {
         "jquery": "^2.2.3"
