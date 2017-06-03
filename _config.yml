@@ -14,9 +14,12 @@ exclude:
   - violet/gulpfile.js
   - violet/README.md
   - violet/changelog.txt
+  - violet/yarn.lock
   - node_modules
   - gulpfile.js
   - package.json
+  - README.md
+  - yarn.lock
 
 # Extra plugins
 gems:
